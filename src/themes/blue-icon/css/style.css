@@ -376,4 +376,9 @@ aside
 	position:relative;
 }
 
-
+/* Added by Chandan on 2013-09-02 for fixing footer *
+ * Tip by Avinash
+ */
+#lab-footer{
+    text-align : center;
+}

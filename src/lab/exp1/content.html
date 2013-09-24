@@ -1,434 +1,1510 @@
 <!-- This file needs to be edited by the lab developer to suit
-the requirements of their lab in particular.-->
-
-<!-- Add class="default" to include any element as it is
+the requirements of their lab in particular.--><!-- Add class="default" to include any element as it is
 specified in default.html. 
 Do not include class="default" to the elements that you want to
-edit -->
-
-<!DOCTYPE html>
-<html>
-<head></head>
-<body>
-
+edit --><!DOCTYPE html>
+<html><head></head><body>
 <div id="experiment"> <!-- The Experiment Document Container-->
-
-  <!-- The lab Header contains the logo and the name of the lab,
+<!-- The lab Header contains the logo and the name of the lab,
   usually displayed on the top of the page-->
-
-  <header id="experiment-header" class="default">
-  
-    <div id="experiment-header-logo" class="logo">
-      <!-- Enclose the logo image of your lab or write it in 
+<header class="default" id="experiment-header">
+<div class="logo" id="experiment-header-logo">
+<!-- Enclose the logo image of your lab or write it in 
       text-->
-      <img src="../images/logo.jpg" />
-    </div>
-
-    <div id="experiment-header-heading" class="heading">
-      <!-- Write the name of your lab and link it to the home 
+<img src="../images/logo.jpg"/>
+</div>
+<div class="heading" id="experiment-header-heading">
+<!-- Write the name of your lab and link it to the home 
       page of your lab (h1 tag is preferred while writing your 
       lab name)-->
-      <a href="../index.html">Physics Lab</a>	
-    </div>
-
-    <!-- Add any additional element you want to add to the lab 
+<a href="../index.html">Programmable Logic Controller</a>
+</div>
+<!-- Add any additional element you want to add to the lab 
     header, For example : Help (Enclosing them with suitable 
     div is recommended)-->
-
-  </header>
-
-
-  <!-- The lab article is the main content area where all the 
+</header>
+<!-- The lab article is the main content area where all the 
   experiment content sits-->
-  <article id="experiment-article">
-  
-    <!-- The lab article has an header, optional navigational 
+<article id="experiment-article">
+<!-- The lab article has an header, optional navigational 
     menu, number of sections, an optional sidebar and a closing 
     footer-->
-     <div id="experiment-article-breadcrumb" class="breadcrumb">
-     </div>
-    
-      <header id="experiment-article-heading" class="heading">
-        <!-- You can add a welcome message or title of the 
-        experiment here -->
-        Simple Pendulum
-        <!-- Add any additional element if required with proper 
-        enclosing-->
-      </header>
-
-      <!-- Navigation menu is useful to organize the view of 
+<div class="breadcrumb" id="experiment-article-breadcrumb">
+</div>
+<header class="heading" id="experiment-article-heading">Study hardware and software used in PLC </header>
+<!-- Navigation menu is useful to organize the view of 
       multiple sections inside the article-->
-      <nav id="experiment-article-navigation" class="default">
-        <ul id="experiment-article-navigation-menu">
-          <!-- The menu can be dynamically generated to contain 
+<nav class="default" id="experiment-article-navigation">
+<ul id="experiment-article-navigation-menu">
+<!-- The menu can be dynamically generated to contain 
           the headings of your sections or instead write the 
           menu items of your choice individually enclosedu in 
           <li> tag as shown below-->
-        </ul>
-      </nav>
-
-      <!-- All the sections of your lab or experiment can be 
+</ul>
+</nav>
+<!-- All the sections of your lab or experiment can be 
       enclosed together with a div element as shown below-->
-      <div id="experiment-article-sections">
-
-        <!-- First section of the article-->
-        <section id="experiment-article-section-1">
-          
-          <div id="experiment-article-section-1-icon" 
-          class="icon">
-	    <!-- Enclose the icon image of your lab -->
-	    <img src="../images/introduction.jpg" />
-	  </div>	
-          
-          <!-- The heading for the section can be enclosed in a 
+<div id="experiment-article-sections">
+<!-- First section of the article-->
+<section id="experiment-article-section-1">
+<div class="icon" id="experiment-article-section-1-icon">
+<!-- Enclose the icon image of your lab -->
+<img src="../images/introduction.jpg"/>
+</div>
+<!-- The heading for the section can be enclosed in a 
           div tag. -->
-          <div id="experiment-article-section-1-heading" 
-          class="heading">
+<div class="heading" id="experiment-article-section-1-heading">
             Introduction
           </div>
-
-          <!-- Write the section content inside a paragraph 
+<!-- Write the section content inside a paragraph 
           element, You can also include images with <img> tag -->
-          <div id="experiment-article-section-1-content" 
-          class="content">	
-            <p>
-            In this module, basic concepts of simple oscillator 
-            are explained. Initially, an example of simple 
-            pendulum is taken and the basic terminology i.e., 
-            what is <span class="term">initial displacement</span>, <span class="term">
-            initial velocity</span>,<span class="term">natural frequency
-            </span> and <span class="term">time period</span> are explained. 
-            Each of these terms is illustrated by giving an 
-            example, where user can enter his value and observe 
-            the behavior of structure for his input.
-            </p>
-
-            <p>
-            Simple harmonic oscillator consists of a <span class="term"> 
-            mass (m) </span> hanging from a string of <span class="term">
-            length (l)</span>, fixed at a pivot point P. 
-            When the mass is displaced from its <span class="term"> mean 
-            position </span> by giving some initial displacement 
-            (angle), oscillator starts swinging back and fourth 
-            with <span class="term">periodic motion</span>.
-            </p>
-
-          <img src="../images/Pendulum.JPG" alt="pendulum">
-        </div>
-
-
-      </section>
-
-      <!-- Second section of the article-->
-      <section id="experiment-article-section-2">
-        
-        <div id="experiment-article-section-2-icon" 
-        class="icon">
-	  <!-- Enclose the icon image of your lab. -->
-	  <img src="../images/theory.jpg" />
-	</div>
-				
-        <!-- The heading for the section can be enclosed in a 
+<div class="content" id="experiment-article-section-1-content"><div class="divContent"><h2 style="COLOR: red"><strong><u><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(255,0,0)"><span style="FONT-SIZE: large">Aim</span></span></u></strong></h2>
+<p> </p>
+<p style="TEXT-ALIGN: right"><a href="http://coep.vlab.co.in/?sub=33&amp;brch=97"><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: medium">Back To Experiment List</span></a></p>
+<p><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(0,0,0); FONT-SIZE: medium">      To study  hardware and software associated with PLC</span></p>
+<p> </p>
+<p><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(0,0,0)"><strong><span style="FONT-SIZE: large">Objective:-</span></strong></span></p>
+<p> </p>
+<p> </p>
+<p><!-- p { margin-bottom: 0.21cm; } --></p>
+<p style="MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium">       1. Learn the basics and hardware components of PLC</span></p>
+<p style="MARGIN-BOTTOM: 0cm"> </p>
+<p style="MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium">       2. Understand  configuration of PLC system</span></p>
+<p style="MARGIN-BOTTOM: 0cm"> </p>
+<p style="MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium">       3. Study various building blocks of PLC</span></p>
+<p> </p>
+<p> </p>
+<p><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(0,0,0); FONT-SIZE: medium"><br/></span></p></div></div>
+</section>
+<!-- Second section of the article-->
+<section id="experiment-article-section-2">
+<div class="icon" id="experiment-article-section-2-icon">
+<!-- Enclose the icon image of your lab. -->
+<img src="../images/theory.jpg"/>
+</div>
+<!-- The heading for the section can be enclosed in a 
         div tag. -->
-        <div id="experiment-article-section-2-heading" 
-        class="heading">
+<div class="heading" id="experiment-article-section-2-heading">
           Theory
         </div>
-
-
-        <!-- Write the section content inside a paragraph 
+<!-- Write the section content inside a paragraph 
         element, we can also include images with <img> tag -->
-        <div id="experiment-article-section-2-content" 
-        class="content">
-          <p>
-          There are two solutions to \(ax^2 + bx + c = 0\) and 
-          they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$ 
-          </p>
-          <p>
-          By applying <span class="term">Newton's second law</span> for 
-          rotational systems, the equation of motion for the 
-          pendulum may be obtained.
-          </p> 
-
-          <p>
-          Here \(\tau\)  =  <span class="term">Torque </span>;   I  =  
-          <span class="term">Moment of Inertia</span>;
-          &alpha; = <span class="term"> Angular
-          Velocity</span>. m is mass of the oscillator, l is
-          the length of the oscillator and \(\theta\) is initial
-          displacement. 
-          </p>
-          
-          <p>							
-          If the amplitude of the angular displacement is 
-          small then we can use the approximation 
-          $$ sin \theta \approx \theta $$
-
-          </p>
-
-        </div>
-      </section>
-
-
-      <section id="experiment-article-section-3">
-        
-        <div id="experiment-article-section-3-icon" 
-        class="icon">
-	  <!-- Enclose the icon image of your lab. -->
-	  <img src="../images/objective.jpg" />
-	</div>
-     
-        <div id="experiment-article-section-3-heading" 
-        class="heading">
+<div class="content" id="experiment-article-section-2-content"><div class="divQuiz"><div id="displayQuiz"><form id="form11" method="post" name="form11"><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">1)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">The term ‘PLC’ stands for</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10771" name="ans0" type="radio" value="10771"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10771">Programmable logic Center</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10770" name="ans0" type="radio" value="10770"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10770">Process logic control</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10772" name="ans0" type="radio" value="10772"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10772">Programmable logic controller</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint10" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">2)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">For an electromagnetic relay two types of contacts available are</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10778" name="ans1" type="radio" value="10778"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10778">Nominal close and Nominal open</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10776" name="ans1" type="radio" value="10776"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10776">Normally close and Normally open</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10777" name="ans1" type="radio" value="10777"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10777">Nominal close and Partial open</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint11" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">3)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">Originally PLCs were designed to control</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10783" name="ans2" type="radio" value="10783"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10783">Batch Processes</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10782" name="ans2" type="radio" value="10782"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10782">Continuous processes</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10784" name="ans2" type="radio" value="10784"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10784">Composite Processes</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint12" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">4)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">The term ‘analog’ refers to</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10790" name="ans3" type="radio" value="10790"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10790">A signal which is continuously varying w.r.t time</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10788" name="ans3" type="radio" value="10788"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10788">A signal which is not varying w.r.t time</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10789" name="ans3" type="radio" value="10789"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10789">A signal which is constant  w.r.t time</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint13" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">5)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">The  word ‘CPU’  in microprocessor systems is</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10794" name="ans4" type="radio" value="10794"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10794">Control Process and Use</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10795" name="ans4" type="radio" value="10795"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10795">Central Processing Unit</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10796" name="ans4" type="radio" value="10796"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10796">Control Process Unit</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint14" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><input align="middle" id="loadTime" name="loadTime" type="hidden" value="1379689118/"/><br/><div style="padding-left:40px;"><input id="submit1" name="submit1" onclick="get_radio_value();" style="width:8%;" type="submit" value=" Submit "/>  <input id="cancel1" name="cancel1" style="width:8%;" type="reset" value=" Cancel "/></div></form><br/></div><br/></div></div>
+</section>
+<section id="experiment-article-section-3">
+<div class="icon" id="experiment-article-section-3-icon">
+<!-- Enclose the icon image of your lab. -->
+<img src="../images/objective.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-3-heading">
           Objective
         </div>
-
-        <div id="experiment-article-section-3-content" 
-        class="content">
-          <p>
-            Objective of simple harmonic oscillator experiment 
-            is to understand the concept of <span class="term">time period 
-            </span>(natural frequency) in <span class="term"> harmonic 
-            oscillations </span>.
-          </p> 
-       
-          <img  src="http://cite.iiit.ac.in/vlab/cITe/images/eerc/Expr1/simple-pendulum.JPG" 
-          alt="simple pendulum" />
-
-        </div>
-
-      </section>
-
-
-      <section id="experiment-article-section-4">
-
-        <div id="experiment-article-section-4-icon" 
-        class="icon">
-	  <!-- Enclose the icon image of your lab.-->
-	  <img src="../images/simulation.jpg" />
-	</div>
-
-        <div id="experiment-article-section-4-heading" 
-        class="heading">
+<div class="content" id="experiment-article-section-3-content"><div class="divContent"><h3 style="COLOR: red"><a><u><big>Theory</big></u></a> </h3>
+<div id="page-bgtop">
+<div id="page-bgbtm"><br/>
+<div class="entry">
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="TEXT-ALIGN: right"><a href="http://coep.vlab.co.in/?sub=33&amp;brch=97"><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: medium">Back To Experiment List</span></a></p>
+<h1><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: x-large"><small><big>   Evolution of PLC:-</big></small></span></strong></span></h1>
+<p> </p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium">When the first electronic machine control was designed, relays were to control the machine logic.</span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium">Relay logic has its own limitations.</span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium">1. Less reliability</span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium">2. The delay involved in switching of contacts</span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium">3. Less flexibility and difficult troubleshooting due to hard wired connection</span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"> </span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<h3><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><br/>
+       </span><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: x-large"><small>What is PLC?</small></span></strong></span></h3>
+<p> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">         A Programmable Logic Controller , PLC, or Programmable Controller is an </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">electronic device </span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">used for Automation of industrial processes, such as control of machinery on </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">factory assembly </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">lines.  A </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">programmable controller is a digitally operating electronic apparatus </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">which uses a </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">programmable memory for the internal storage of instructions for implementing </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">specific functions, </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">such as logic, sequencing, timing, counting and arithmetic, to control various machines or processes  through </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">digital or analog </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">input/output devices. </span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">Unlike general purpose </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">computers, the PLC </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">is designed for multiple inputs and output arrangements, extended </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">temperature ranges, immunity </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">to electrical noise, and resistance to vibrations and impacts. </span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">Programs to control machine operation are typically stored in battery-backed or non volatile </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">memory. A PLC is an example of a real time system since output results are produced in </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">response to input conditions within a bounded time, otherwise unintended operation  results.</span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><small><span style="COLOR: rgb(51,51,51); FONT-SIZE: x-large"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif"><span class="CLS_Headin">Basic Components of PLC:-</span></span></strong></span></small></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"> </p>
+<p style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="COLOR: rgb(51,51,51); FONT-SIZE: medium"><span style="FONT-FAMILY: arial, helvetica, sans-serif">1. CPU and Memory module</span></span></p>
+<p style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="COLOR: rgb(51,51,51); FONT-SIZE: medium"><span style="FONT-FAMILY: arial, helvetica, sans-serif"><br/>
+</span></span><span style="COLOR: rgb(51,51,51); FONT-SIZE: medium"><span style="FONT-FAMILY: arial, helvetica, sans-serif">2. Power supply</span></span></p>
+<p style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="COLOR: rgb(51,51,51); FONT-SIZE: medium"><span style="FONT-FAMILY: arial, helvetica, sans-serif"><br/>
+</span></span><span style="COLOR: rgb(51,51,51); FONT-SIZE: medium"><span style="FONT-FAMILY: arial, helvetica, sans-serif">3. Input and output module</span></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="COLOR: rgb(51,51,51); FONT-SIZE: medium"><span style="FONT-FAMILY: arial, helvetica, sans-serif"><br/>
+</span></span><span style="COLOR: rgb(51,51,51); FONT-SIZE: medium"><span style="FONT-FAMILY: arial, helvetica, sans-serif">4. Programming device</span></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="TEXT-ALIGN: center; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> <input height="283" src="http://coep.vlab.co.in/userfiles/5/Block%20dia%20of%20PLC.JPG" type="image" width="708"/></p>
+<p style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-SIZE: medium">CPU and Memory Module:-</span></strong></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-SIZE: medium"><br/>
+</span></strong></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium">This is the device where PLC program is stored and processed. <span lang="en-GB">The size and type of CPU </span></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">determines</span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB"> the programming functions available, size of the application logic available, amount of </span></span></p>
+<p style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">memory supported, </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">and </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">processing speed.</span></span></p>
+<p style="MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB"><br/>
+</span></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium">Power Supply:- </span></strong></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><br/>
+</span></strong></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">The power supply provides power for the PLC system. It provides internal DC current to operate the processor</span></span>  <span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">logic circuitry and input/output assemblies. This can be built into the PLC or an external unit. Common </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">voltage </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">levels required by the PLC are 24Vdc, 120Vac, 220Vac. </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51)"><span lang="en-GB"> </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51)"><span lang="en-GB"> </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif"><span lang="en-GB"> </span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif"><span lang="en-GB"><br/>
+</span></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51)"><strong><span style="FONT-SIZE: medium">Input and Output Module:-</span></strong></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51)"><strong><span style="FONT-SIZE: medium"><br/>
+</span></strong></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">Inputs carry signals from the field (process) to the controller. Various types of inputs  can be  switches, pressure sensors, transmitters etc. </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">The field devices to whom PLC sends the results of logical operations are the output devices. These are the actuators that  adjusts or control the process,  motors, lights, relays, pumps, etc.</span></span> <span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">Many types of inputs and outputs can be connected to a PLC and they can be categorised mainly as analog and digital. Digital inputs and outputs operate on  discrete or binary change  i.e. on/off, open/close. Analog inputs and outputs change continuously with reference to time.</span></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: medium">Programming Device:- </span></strong></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: medium"><br/>
+</span></strong></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">The PLC is programmed using a special software using  computer or  hand Held Terminal(HHT) that can load and change the logic inside.</span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB"><br/>
+</span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: x-large"><span lang="en-GB"><strong>Operation of a PLC system:-</strong></span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: x-large"><span lang="en-GB"><strong><br/>
+</strong></span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">The operation of the PLC is determined by 3 steps.</span></span> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">    </span></span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB"> </span></span></p>
+<ol>
+<li><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">Reading the field status form input devices</span></span></li>
+<li><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">Execution or solving the logic, and</span></span></li>
+<li><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">Updating the output devices status.</span></span></li>
+</ol>
+<p style="TEXT-ALIGN: center; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="COLOR: rgb(51,51,51)">﻿﻿<input height="464" src="http://coep.vlab.co.in/userfiles/5/operatiom%20of%20PLC.JPG" type="image" width="590"/><br/>
+</span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: medium"><span lang="en-GB">PLC Program:-</span></span></strong></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: medium"><span lang="en-GB"><br/>
+</span></span></strong></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">PLC Program is a  Logic that is executed by the CPU. This logic can be written in the form of  Ladder diagram, Instruction List, Sequential Function Charts, Structured text or Functional block diagram. These are the languages used for writing logic  as per  IEC  standard. The program is then downloaded to the PLC. This is usually done by temporarily connecting the PC or HHT to the PLC. Once the program is downloaded to the CPU, it is usually not necessary for the PC to remain connected.</span></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: medium"><span lang="en-GB">PLC Scan:- </span></span></strong></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">Once the program is downloaded in the CPU, the PLC  is switched to "run" mode and the PLC executes the application program. The CPU regularly reads the status of the input devices, and sends data to the output devices as per the logical results after execution of the program. </span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">The process of  Initialization when power is turned on, Reading inputs, Executing logic, and</span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">modifying outputs is called as PLC Scan Cycle. </span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB"><input height="283" src="http://coep.vlab.co.in/userfiles/5/Scanning%20Process%20of%20PLC.JPG" type="image" width="314"/><br/>
+</span></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="COLOR: rgb(51,51,51)"><br/>
+</span><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"> </span><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: medium"><span lang="en-GB">Memory</span></span></strong></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">The logic or application program is stored in memory. As the PLC executes logic, it may also read and store values to memory. The values may  be referenced by the application program.</span></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<h2><small><span style="COLOR: rgb(51,51,51)"><span style="FONT-SIZE: x-small"><span lang="en-GB"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: x-large">PLC Input and Output Devices:- </span></strong></span></span></span></small><span style="COLOR: rgb(51,51,51)"><span style="FONT-SIZE: x-small"><span lang="en-GB"><strong><br/>
+</strong></span></span></span></h2>
+<p> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">Two major types of Input/Output  modules are</span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">1. Digital - binary devices which must be in one of the two states: on or off.</span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">2. Analog - continuos devices - sense and respond to a range of values.</span></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><strong><span lang="en-GB">Digital I/O</span></strong></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">Common digital field input devices include pushbuttons, limit switches,  photosensor etc. Common digital output devices include relays, motor starters, and solenoid valves.</span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB"><br/>
+</span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: medium"><span lang="en-GB">Analog I/O</span></span></strong></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">Common analog input devices are transmitters used for sensing various parameters. <span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">Common </span></span>output signals include motor speed, valve position, air pressure, etc.</span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB"><br/>
+</span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><span lang="en-GB">I/O modules connect "real world" field devices to the controller. They convert the electrical signals used in the field devices into electronic signals that can be used by the control system, and translate real world values to IO table values.</span></span></p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"> </p>
+<p style="TEXT-ALIGN: justify; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm"> </p>
+<h2><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: medium"><big>﻿   I/O Wiring:- </big></span></strong></span></h2>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="COLOR: rgb(51,51,51); FONT-SIZE: medium"><strong><br/>
+</strong></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><strong><span style="COLOR: rgb(51,51,51); FONT-SIZE: medium"> Example of Input Module Wiring Diagram:-</span></strong></p>
+<p style="TEXT-ALIGN: center; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="COLOR: rgb(51,51,51); FONT-SIZE: medium"><input height="345" src="http://coep.vlab.co.in/userfiles/5/Input%20Wiring1.JPG" type="image" width="613"/><br/>
+</span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm">  </p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium">Example of Output Wiring Diagram:-</span></strong></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(51,51,51); FONT-SIZE: medium"><br/>
+</span></p>
+<p style="TEXT-ALIGN: center; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> <input src="http://coep.vlab.co.in/userfiles/5/Output%20wiring1.JPG" type="image"/></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; MARGIN-BOTTOM: 0cm"> <span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: medium"><span style="TEXT-DECORATION: none"><span lang="en-GB">Sinking and Sourcing Operation:- </span></span></span></strong></span></p>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; FONT-STYLE: normal; MARGIN-TOP: 0.05cm; MARGIN-BOTTOM: 0.05cm; FONT-WEIGHT: normal; TEXT-DECORATION: none"><span style="COLOR: rgb(51,51,51)"><strong><span style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: medium"><span style="TEXT-DECORATION: none"><span lang="en-GB"><br/>
+</span></span></span></strong></span></p>
+<ul>
+<li style="TEXT-ALIGN: justify"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(0,0,0); FONT-SIZE: medium"><span style="TEXT-DECORATION: none"><span lang="en-GB">If the device provides current  to during it’s on state, the device is said to be souring current.</span></span></span></li>
+</ul>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; FONT-STYLE: normal; MARGIN-TOP: 0.21cm; TEXT-INDENT: -0.95cm; MARGIN-BOTTOM: 0cm; MARGIN-LEFT: 0.95cm; FONT-WEIGHT: normal; TEXT-DECORATION: none"> </p>
+<ul>
+<li style="TEXT-ALIGN: justify"><span style="FONT-FAMILY: arial, helvetica, sans-serif; COLOR: rgb(0,0,0); FONT-SIZE: medium"><span style="TEXT-DECORATION: none">If the device receives current in the ON or true state, then it is sinking current.</span></span></li>
+</ul>
+<p style="TEXT-ALIGN: justify; LINE-HEIGHT: 100%; FONT-STYLE: normal; MARGIN-TOP: 0.21cm; MARGIN-BOTTOM: 0cm; FONT-WEIGHT: normal; TEXT-DECORATION: none"> </p>
+<p> </p>
+</div>
+</div>
+</div>
+<p> </p></div></div>
+</section>
+<section id="experiment-article-section-4">
+<div class="icon" id="experiment-article-section-4-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/simulation.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-4-heading">
           Experiment
         </div>
-
-        <div id="experiment-article-section-4-content" 
-        class="content">
-          <p>
+<div class="content" id="experiment-article-section-4-content">
+<p>
 	        Place or link to your experiment java applet 
 	        or flash file here. 
 	        
             
           </p>
-        </div>
-
-      </section>
-
-      <section id="experiment-article-section-5">
-   
-        <div id="experiment-article-section-5-icon" 
-        class="icon">
-	  <!-- Enclose the icon image of your lab.-->
-	  <img src="../images/manual.jpg" />
-	</div>
-
-        <div id="experiment-article-section-5-heading" 
-        class="heading">
+</div>
+</section>
+<section id="experiment-article-section-5">
+<div class="icon" id="experiment-article-section-5-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/manual.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-5-heading">
           Manual
         </div>
-
-        <div id="experiment-article-section-5-content" 
-        class="content">
-          <p> 
-            Start the experiment with the default values of 
-            length, mass and intial displacement (in angle). 
-            Pause the experiment after few cycles and note 
-            the observation.
-          </p> 
-
-        <h3>Observation 1:</h3> 
-          <ol> 
-            
-            <li>
-              Find the time period of the pendulum by noting the 
-              time interval of any one complete cycle from the 
-              response graph. 
-            </li> 
-
-            <li>
-              You may note that this time period value is same 
-              for any complete cycle.
-              <a  class="more" href="cITe/Documents/eerc/
-              pdf/1.manual.pdf">Read More</a>  
-            </li> 
-
-          </ol>
-
-          <a onclick="window.open('http://cite.iiit.ac.in/vlab/cITe/media/eerc/Expr1/shm.htm', 
-          null,'scrollbars=yes, width=' + (screen.availWidth) 
-          +',height=' + (screen.availHeight)); return false;"
-
-          href="http://cite.iiit.ac.in/vlab/cITe/media/eerc/Expr1/shm.htm">		   
-          <img src="http://cite.iiit.ac.in/vlab/cITe/images/demo.JPG" 
-          alt="" width="400" height="200"></a>
-
-          </div>
-
-        </section>
-
-        <section id="experiment-article-section-6">
-      
-          <div id="experiment-article-section-6-icon" 
-          class="icon">
-	    <!-- Enclose the icon image of your lab.-->
-	    <img src="../images/quizzes.jpg" />
-	  </div>
-
-          <div id="experiment-article-section-6-heading" 
-          class="heading">
+<div class="content" id="experiment-article-section-5-content"><div class="divContent"><p><embed height="450" loop="true" menu="true" play="true" pluginspage="http://www.macromedia.com/go/getflashplayer" src="/userfiles/5/Programmable%20Logic%20Controller%281%29.swf" type="application/x-shockwave-flash" width="800"></embed></p></div></div>
+</section>
+<section id="experiment-article-section-6">
+<div class="icon" id="experiment-article-section-6-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/quizzes.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-6-heading">
             Quizzes
           </div>
-
-          <div id="experiment-article-section-6-content" 
-          class="content">
-            
-            <p>
-              
-              <b>Q1.</b> 
-              Time taken for one complete oscillation 
-              is called Time Period of the oscillator. <br> 
-              <input type="radio" name="q1" id="q1" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q1" id="q1" value="0">
-                <font color="red"> False </font> <br/><br/> 
-              
-              <b>Q2.</b> 
-              Time period of the oscillator is constant for 
-              given values of mass, length and initial 
-              conditions.<br> 
-              <input type="radio" name="q2" id="q2" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q2" id="q2"value="0">
-                <font color="red"> False </font> <br/><br/> 
-              
-              <b>Q3.</b> 
-              Value of Time period depends on initial 
-              conditions. <br> 
-              <input type="radio" name="q3" id="q3" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q3" id="q3"value="0">
-                <font color="red"> False </font> <br/><br/> 
-              
-              <b>Q4.</b> 
-              Value of time period depends on mass. <br> 
-              <input type="radio" name="q4" id="q4" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q4" id="q4" value="0">
-                <font color="red"> False </font> <br/><br/> 
-              
-              <b>Q5.</b> 
-              Value of time period depends on length of the 
-              oscillator. <br> 
-              <input type="radio" name="q5" id="q5" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q5" id="q5"value="0">
-                <font color="red"> False </font> <br/><br/> 
-              <input type="submit" value="Submit Answers" 
-                class="button" />
-            </p>
-
-          </div>
-
-        </section>
-
-        <section id="experiment-article-section-7">
-	  
-          <div id="experiment-article-section-7-icon" 
-          class="icon">
-	    <!-- Enclose the icon image of your lab. -->
-	    <img src="../images/procedure.jpg" />
-	  </div>
-	
-          <div id="experiment-article-section-7-heading" 
-          class="heading">
+<div class="content" id="experiment-article-section-6-content"><div class="divQuiz"><div id="displayQuiz"><form id="form11" method="post" name="form11"><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">1)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">The PLCs  were originally designed to replace</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10801" name="ans0" type="radio" value="10801"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10801">Hardwired relays</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10800" name="ans0" type="radio" value="10800"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10800">Analog controllers</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10802" name="ans0" type="radio" value="10802"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10802">Microcomputers</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint10" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">2)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">What type of input a limit switch is w.r.t PLC</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10807" name="ans1" type="radio" value="10807"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10807">Digital</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10808" name="ans1" type="radio" value="10808"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10808">Composite</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10806" name="ans1" type="radio" value="10806"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10806">Analog</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint11" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">3)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">In a ladder diagram an output would be represented by</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10814" name="ans2" type="radio" value="10814"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10814">A coil symbol</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10812" name="ans2" type="radio" value="10812"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10812">An open contact symbol</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10813" name="ans2" type="radio" value="10813"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10813">A closed contact symbol</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint12" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">4)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">When referring to the capacity, the abbreviation K represents ---- locations or words</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10818" name="ans3" type="radio" value="10818"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10818">1000</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10819" name="ans3" type="radio" value="10819"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10819">1024</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10820" name="ans3" type="radio" value="10820"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10820">1036</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint13" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><table border="0" style="width:100%"><tr><td valign="top" width="2%"></td><td style="width:1%;vertical-align:top;" width="5%"><b><span id="questionNum">5)</span></b></td><td colspan="2" style="vertical-align:top;" width="70%"><span id="question">The basic difference between  a PLC and a relay logic is that</span></td><td colspan="3" width="3%"> </td></tr><tr><td> </td><td> </td><td colspan="5" width="80%"><table align="left" border="0" width="100%"><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10827" name="ans4" type="radio" value="10827"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10827">Different types of input/outputs devices are used</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10828" name="ans4" type="radio" value="10828"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10828">Different voltage levels for inputs/outputs are use</label></td></tr><tr><td align="right" id="textAnsChoice" style="vertical-align:middle" width="32px"><input id="ans10829" name="ans4" type="radio" value="10829"/> </td><td id="textAnsChoice" style="padding-left:3px;"><label for="ans10829">One can be programmed other not</label></td></tr></table></td></tr> </table><div id="hint"><div id="textHint14" style="padding-left:50px; color:#F00;"></div></div><hr id="horizontalLine"/><input align="middle" id="loadTime" name="loadTime" type="hidden" value="1379689118/"/><br/><div style="padding-left:40px;"><input id="submit1" name="submit1" onclick="get_radio_value();" style="width:8%;" type="submit" value=" Submit "/>  <input id="cancel1" name="cancel1" style="width:8%;" type="reset" value=" Cancel "/></div></form><br/></div><br/></div></div>
+</section>
+<section id="experiment-article-section-7">
+<div class="icon" id="experiment-article-section-7-icon">
+<!-- Enclose the icon image of your lab. -->
+<img src="../images/procedure.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-7-heading">
 	    Procedure
 	  </div>
-	
-          <div id="experiment-article-section-7-content" 
-          class="content">
-	    <p>
-	      Procedure for the experiment is as follows.
-	    </p>
-	  </div>
-	
-        </section>
-			
-		
-        <section id="experiment-article-section-8">
-   
-          <div id="experiment-article-section-8-icon" 
-          class="icon">
-	    <!-- Enclose the icon image of your lab.-->
-	    <img src="../images/readings.jpg" />
-	  </div>
-
-          <div id="experiment-article-section-8-heading" 
-          class="heading">
+<div class="content" id="experiment-article-section-7-content"><div class="divContent"><h2 style="color: Red;"><strong><u><span style="font-family: arial,helvetica,sans-serif; color: rgb(255, 0, 0);"><span style="font-size: large;">Review Questions</span></span></u></strong></h2>
+<p> </p>
+<p style="text-align: right;"><a href="http://coep.vlab.co.in/?sub=33&amp;brch=97"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">Back To Experiment list</span></a></p>
+<p> </p>
+<!--[if gte mso 9]><xml>
+<w:WordDocument>
+<w:View>Normal</w:View>
+<w:Zoom>0</w:Zoom>
+<w:TrackMoves />
+<w:TrackFormatting />
+<w:PunctuationKerning />
+<w:ValidateAgainstSchemas />
+<w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+<w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+<w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+<w:DoNotPromoteQF />
+<w:LidThemeOther>EN-US</w:LidThemeOther>
+<w:LidThemeAsian>X-NONE</w:LidThemeAsian>
+<w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+<w:Compatibility>
+<w:BreakWrappedTables />
+<w:SnapToGridInCell />
+<w:WrapTextWithPunct />
+<w:UseAsianBreakRules />
+<w:DontGrowAutofit />
+<w:SplitPgBreakAndParaMark />
+<w:DontVertAlignCellWithSp />
+<w:DontBreakConstrainedForcedTables />
+<w:DontVertAlignInTxbx />
+<w:Word11KerningPairs />
+<w:CachedColBalance />
+</w:Compatibility>
+<w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+<m:mathPr>
+<m:mathFont m:val="Cambria Math" />
+<m:brkBin m:val="before" />
+<m:brkBinSub m:val="&#45;-" />
+<m:smallFrac m:val="off" />
+<m:dispDef />
+<m:lMargin m:val="0" />
+<m:rMargin m:val="0" />
+<m:defJc m:val="centerGroup" />
+<m:wrapIndent m:val="1440" />
+<m:intLim m:val="subSup" />
+<m:naryLim m:val="undOvr" />
+</m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+LatentStyleCount="267">
+<w:LsdException Locked="false" Priority="0" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Normal" />
+<w:LsdException Locked="false" Priority="9" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="heading 1" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" />
+<w:LsdException Locked="false" Priority="39" Name="toc 1" />
+<w:LsdException Locked="false" Priority="39" Name="toc 2" />
+<w:LsdException Locked="false" Priority="39" Name="toc 3" />
+<w:LsdException Locked="false" Priority="39" Name="toc 4" />
+<w:LsdException Locked="false" Priority="39" Name="toc 5" />
+<w:LsdException Locked="false" Priority="39" Name="toc 6" />
+<w:LsdException Locked="false" Priority="39" Name="toc 7" />
+<w:LsdException Locked="false" Priority="39" Name="toc 8" />
+<w:LsdException Locked="false" Priority="39" Name="toc 9" />
+<w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" />
+<w:LsdException Locked="false" Priority="10" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Title" />
+<w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" />
+<w:LsdException Locked="false" Priority="11" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtitle" />
+<w:LsdException Locked="false" Priority="22" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Strong" />
+<w:LsdException Locked="false" Priority="20" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Emphasis" />
+<w:LsdException Locked="false" Priority="59" SemiHidden="false"
+UnhideWhenUsed="false" Name="Table Grid" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" />
+<w:LsdException Locked="false" Priority="1" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="No Spacing" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 1" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 1" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 1" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 1" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" />
+<w:LsdException Locked="false" Priority="34" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" />
+<w:LsdException Locked="false" Priority="29" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Quote" />
+<w:LsdException Locked="false" Priority="30" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 1" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 1" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 1" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 1" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 1" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 2" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 2" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 2" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 2" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 2" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 2" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 2" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 2" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 3" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 3" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 3" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 3" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 3" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 3" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 3" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 3" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 3" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 4" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 4" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 4" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 4" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 4" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 4" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 4" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 4" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 4" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 5" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 5" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 5" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 5" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 5" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 5" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 5" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 5" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 5" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 6" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 6" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 6" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 6" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 6" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 6" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 6" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 6" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 6" />
+<w:LsdException Locked="false" Priority="19" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" />
+<w:LsdException Locked="false" Priority="21" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" />
+<w:LsdException Locked="false" Priority="31" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" />
+<w:LsdException Locked="false" Priority="32" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" />
+<w:LsdException Locked="false" Priority="33" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Book Title" />
+<w:LsdException Locked="false" Priority="37" Name="Bibliography" />
+<w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" />
+</w:LatentStyles>
+</xml><![endif]--><!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin-top:0in;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;
+mso-bidi-font-family:"Times New Roman";
+mso-bidi-theme-font:minor-bidi;}
+</style>
+<![endif]-->
+<p class="MsoListParagraphCxSpFirst" style="margin-left: 1in; text-indent: -0.25in; line-height: 150%;"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><span style="">1.<span style='font: 7pt "Times New Roman";'>    </span></span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black;'>What is PLC?</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: 0.75in; line-height: 150%;"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'> </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: 1in; text-indent: -0.25in; line-height: 150%;"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><span style="">2.<span style='font: 7pt "Times New Roman";'>    </span></span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black;'>What are the basic components of a PLC?</span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: 0.75in; line-height: 150%;"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'> </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: 1in; text-indent: -0.25in; line-height: 150%;"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><span style="">3.<span style='font: 7pt "Times New Roman";'>    </span></span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black;'>Explain the operation of a PLC system.</span></p>
+<p class="MsoListParagraphCxSpMiddle"><span style='font-size: 12pt; line-height: 115%; font-family: "Arial","sans-serif";'> </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: 0.75in; line-height: 150%;"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'> </span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><span style="">4.<span style='font: 7pt "Times New Roman";'>    </span></span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black;'>What are the advantages of PLC? </span></p>
+<p class="MsoListParagraphCxSpMiddle" style="margin-left: 0.75in; line-height: 150%;"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'> </span></p>
+<p class="MsoListParagraphCxSpLast" style="margin-left: 1in; text-indent: -0.25in; line-height: 150%;"><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif";'><span style="">5.<span style='font: 7pt "Times New Roman";'>    </span></span></span><span style='font-size: 12pt; line-height: 150%; font-family: "Arial","sans-serif"; color: black;'>What is Sinking and Sourcing operation with reference to PLC I/O module?</span></p>
+<p> </p>
+<p> </p></div></div>
+</section>
+<section id="experiment-article-section-8">
+<div class="icon" id="experiment-article-section-8-icon">
+<!-- Enclose the icon image of your lab.-->
+<img src="../images/readings.jpg"/>
+</div>
+<div class="heading" id="experiment-article-section-8-heading">
             Further Readings
           </div>
-
-          <div id="experiment-article-section-8-content" 
-          class="content">
-            <ul>	
-              <li>
-                <a href="http://en.wikipedia.org/wiki/
-                Simple_harmonic_motion">http://en.wikipedia.org/wiki/Simple_harmonic_motion</a>
-              </li>
-              <li>
-                <a href="http://www.physics.uoguelph.ca/
-                tutorials/shm/Q.shm.html">http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html</a>
-              </li> 
-              <li>
-                Dynamics of structures by Anil K chopra. 
-              </li> 
-              <li>
-                <a href="http://surendranath.tripod.com/Applets/
-                Oscillations/SHM/SHMApplet.html">http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html</a> 
-              </li>
-            </ul>
-          </div>
-
-        </section>
-
-      </div>
-
-
-    <!-- An article can have a sidebar that contain related 
+<div class="content" id="experiment-article-section-8-content"><div class="divContent"><p>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Word.Document" name="ProgId"/>
+<meta content="Microsoft Word 12" name="Generator"/>
+<meta content="Microsoft Word 12" name="Originator"/>
+<link href="file:///C:%5CDOCUME%7E1%5CPRATYU%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_filelist.xml" rel="File-List"/>
+<link href="file:///C:%5CDOCUME%7E1%5CPRATYU%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_themedata.thmx" rel="themeData"/>
+<link href="file:///C:%5CDOCUME%7E1%5CPRATYU%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_colorschememapping.xml" rel="colorSchemeMapping"/><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+LatentStyleCount="267">
+<w:LsdException Locked="false" Priority="0" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Normal" />
+<w:LsdException Locked="false" Priority="9" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="heading 1" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" />
+<w:LsdException Locked="false" Priority="39" Name="toc 1" />
+<w:LsdException Locked="false" Priority="39" Name="toc 2" />
+<w:LsdException Locked="false" Priority="39" Name="toc 3" />
+<w:LsdException Locked="false" Priority="39" Name="toc 4" />
+<w:LsdException Locked="false" Priority="39" Name="toc 5" />
+<w:LsdException Locked="false" Priority="39" Name="toc 6" />
+<w:LsdException Locked="false" Priority="39" Name="toc 7" />
+<w:LsdException Locked="false" Priority="39" Name="toc 8" />
+<w:LsdException Locked="false" Priority="39" Name="toc 9" />
+<w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" />
+<w:LsdException Locked="false" Priority="10" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Title" />
+<w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" />
+<w:LsdException Locked="false" Priority="11" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtitle" />
+<w:LsdException Locked="false" Priority="22" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Strong" />
+<w:LsdException Locked="false" Priority="20" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Emphasis" />
+<w:LsdException Locked="false" Priority="59" SemiHidden="false"
+UnhideWhenUsed="false" Name="Table Grid" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" />
+<w:LsdException Locked="false" Priority="1" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="No Spacing" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 1" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 1" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 1" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 1" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" />
+<w:LsdException Locked="false" Priority="34" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" />
+<w:LsdException Locked="false" Priority="29" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Quote" />
+<w:LsdException Locked="false" Priority="30" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 1" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 1" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 1" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 1" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 1" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 2" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 2" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 2" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 2" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 2" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 2" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 2" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 2" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 3" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 3" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 3" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 3" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 3" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 3" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 3" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 3" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 3" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 4" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 4" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 4" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 4" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 4" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 4" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 4" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 4" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 4" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 5" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 5" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 5" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 5" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 5" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 5" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 5" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 5" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 5" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 6" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 6" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 6" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 6" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 6" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 6" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 6" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 6" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 6" />
+<w:LsdException Locked="false" Priority="19" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" />
+<w:LsdException Locked="false" Priority="21" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" />
+<w:LsdException Locked="false" Priority="31" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" />
+<w:LsdException Locked="false" Priority="32" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" />
+<w:LsdException Locked="false" Priority="33" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Book Title" />
+<w:LsdException Locked="false" Priority="37" Name="Bibliography" />
+<w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" />
+</w:LatentStyles>
+</xml><![endif]--><style type="text/css">
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1107304683 0 0 159 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073750139 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:.5in;
+	mso-add-space:auto;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1461531888;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1692207614 339371146 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Arial","sans-serif";}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style><!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin-top:0in;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]-->
+</p>
+<p class="MsoNormal" style="line-height: normal;"><b><u><span style='font-size: 18pt; font-family: "Arial","sans-serif"; color: red;'>Reference</span></u></b><b><span style='font-size: 18pt; font-family: "Times New Roman","serif"; color: red;'><o:p></o:p></span></b></p>
+<p class="MsoNormal" style="line-height: normal;"><span style='font-size: 12pt; font-family: "Times New Roman","serif";'> <o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;"><span style='font-size: 12pt; font-family: "Times New Roman","serif";'> <o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;"><b><span style='font-size: 13.5pt; font-family: "Times New Roman","serif";'> Books</span></b><b><span style='font-size: 12pt; font-family: "Times New Roman","serif";'>:</span></b></p>
+<p class="MsoNormal" style="line-height: normal;"><span style='font-size: 12pt; font-family: "Times New Roman","serif";'><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 21.5pt; line-height: normal;"> </p>
+<p class="MsoNormal" style="margin-left: 21.5pt; line-height: normal;">[1] Gary Dunning, “<i>Introduction Programmable Logic Controllers”,</i> CENGAGE</p>
+<p class="MsoNormal" style="margin-left: 21.5pt; line-height: normal;"> </p>
+<p class="MsoNormal" style="margin-left: 21.5pt; line-height: normal;">  1. Gary Dunning, “<i>Introduction Programmable Logic Controllers”,</i> CENGAGE <span class="Apple-style-span" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 18px; ">Learning, 3<sup>rd</sup> Ed., 2006</span></p>
+<p class="MsoNormal" style="margin-left: 21.5pt; line-height: normal;"> </p>
+<p class="MsoNormal" style="margin-left: 21.5pt; line-height: normal;"> </p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:21.5pt;line-height:normal"><span style='font-size:10.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black'> </span><span lang="EN-IN" style="color: black; ">2. John R. Hackworth, Frederick D. Hackworth Jr.,<i style="font-family: Arial, sans-serif; font-size: 12pt; ">“Programmable Logic Controllers',</i> Pearson, 2004</span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:21.5pt;line-height:normal"><span style='font-size:10.0pt;
+font-family:"Arial","sans-serif";mso-fareast-font-family:"Times New Roman";
+color:black'> </span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:21.5pt;line-height:normal"><span style='font-size:12.0pt;font-family:"Arial","sans-serif";
+mso-fareast-font-family:"Times New Roman";color:black'><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 21.5pt; line-height: normal;">  3. Bolton, <i>“Programmable Logic Controllers”,</i> Elsevier, 4<sup>th</sup> Ed., 2006</p>
+<p class="MsoNormal" style="margin-left: 21.5pt; line-height: normal;"> </p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+margin-left:21.5pt;line-height:normal"><span style='font-size:12.0pt;font-family:"Arial","sans-serif";mso-fareast-font-family:
+"Times New Roman";color:black'><o:p></o:p></span></p>
+<p class="MsoNormal" style="margin-left: 21.5pt; line-height: normal;"> </p>
+<p class="MsoNormal" style="margin-left: 21.5pt; line-height: normal;"><big><span style='font-size: 12pt; font-family: "Times New Roman","serif";'> </span></big><span style='font-size: 12pt; font-family: "Times New Roman","serif";'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;"><b><span lang="EN-IN" style='font-size: 13.5pt; font-family: "Times New Roman","serif";'>Useful Links:</span></b></p>
+<p class="MsoNormal" style="line-height: normal;"> </p>
+<p class="MsoNormal" style="line-height: normal;">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<meta content="Word.Document" name="ProgId"/>
+<meta content="Microsoft Word 12" name="Generator"/>
+<meta content="Microsoft Word 12" name="Originator"/>
+<link href="file:///C:%5CDOCUME%7E1%5CPRATYU%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_filelist.xml" rel="File-List"/>
+<link href="file:///C:%5CDOCUME%7E1%5CPRATYU%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_themedata.thmx" rel="themeData"/>
+<link href="file:///C:%5CDOCUME%7E1%5CPRATYU%7E1%5CLOCALS%7E1%5CTemp%5Cmsohtmlclip1%5C01%5Cclip_colorschememapping.xml" rel="colorSchemeMapping"/><!--[if gte mso 9]><xml>
+<w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
+DefSemiHidden="true" DefQFormat="false" DefPriority="99"
+LatentStyleCount="267">
+<w:LsdException Locked="false" Priority="0" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Normal" />
+<w:LsdException Locked="false" Priority="9" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="heading 1" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" />
+<w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" />
+<w:LsdException Locked="false" Priority="39" Name="toc 1" />
+<w:LsdException Locked="false" Priority="39" Name="toc 2" />
+<w:LsdException Locked="false" Priority="39" Name="toc 3" />
+<w:LsdException Locked="false" Priority="39" Name="toc 4" />
+<w:LsdException Locked="false" Priority="39" Name="toc 5" />
+<w:LsdException Locked="false" Priority="39" Name="toc 6" />
+<w:LsdException Locked="false" Priority="39" Name="toc 7" />
+<w:LsdException Locked="false" Priority="39" Name="toc 8" />
+<w:LsdException Locked="false" Priority="39" Name="toc 9" />
+<w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" />
+<w:LsdException Locked="false" Priority="10" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Title" />
+<w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" />
+<w:LsdException Locked="false" Priority="11" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtitle" />
+<w:LsdException Locked="false" Priority="22" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Strong" />
+<w:LsdException Locked="false" Priority="20" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Emphasis" />
+<w:LsdException Locked="false" Priority="59" SemiHidden="false"
+UnhideWhenUsed="false" Name="Table Grid" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" />
+<w:LsdException Locked="false" Priority="1" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="No Spacing" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 1" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 1" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 1" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 1" />
+<w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" />
+<w:LsdException Locked="false" Priority="34" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" />
+<w:LsdException Locked="false" Priority="29" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Quote" />
+<w:LsdException Locked="false" Priority="30" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 1" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 1" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 1" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 1" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 1" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 2" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 2" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 2" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 2" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 2" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 2" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 2" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 2" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 2" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 3" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 3" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 3" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 3" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 3" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 3" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 3" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 3" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 3" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 4" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 4" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 4" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 4" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 4" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 4" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 4" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 4" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 4" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 5" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 5" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 5" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 5" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 5" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 5" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 5" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 5" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 5" />
+<w:LsdException Locked="false" Priority="60" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Shading Accent 6" />
+<w:LsdException Locked="false" Priority="61" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light List Accent 6" />
+<w:LsdException Locked="false" Priority="62" SemiHidden="false"
+UnhideWhenUsed="false" Name="Light Grid Accent 6" />
+<w:LsdException Locked="false" Priority="63" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" />
+<w:LsdException Locked="false" Priority="64" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" />
+<w:LsdException Locked="false" Priority="65" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 1 Accent 6" />
+<w:LsdException Locked="false" Priority="66" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium List 2 Accent 6" />
+<w:LsdException Locked="false" Priority="67" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" />
+<w:LsdException Locked="false" Priority="68" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" />
+<w:LsdException Locked="false" Priority="69" SemiHidden="false"
+UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" />
+<w:LsdException Locked="false" Priority="70" SemiHidden="false"
+UnhideWhenUsed="false" Name="Dark List Accent 6" />
+<w:LsdException Locked="false" Priority="71" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Shading Accent 6" />
+<w:LsdException Locked="false" Priority="72" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful List Accent 6" />
+<w:LsdException Locked="false" Priority="73" SemiHidden="false"
+UnhideWhenUsed="false" Name="Colorful Grid Accent 6" />
+<w:LsdException Locked="false" Priority="19" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" />
+<w:LsdException Locked="false" Priority="21" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" />
+<w:LsdException Locked="false" Priority="31" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" />
+<w:LsdException Locked="false" Priority="32" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" />
+<w:LsdException Locked="false" Priority="33" SemiHidden="false"
+UnhideWhenUsed="false" QFormat="true" Name="Book Title" />
+<w:LsdException Locked="false" Priority="37" Name="Bibliography" />
+<w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" />
+</w:LatentStyles>
+</xml><![endif]--><style type="text/css">
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1107304683 0 0 159 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610611985 1073750139 0 0 159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page Section1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;
+	mso-header-margin:.5in;
+	mso-footer-margin:.5in;
+	mso-paper-source:0;}
+div.Section1
+	{page:Section1;}
+-->
+</style><!--[if gte mso 10]>
+<style>
+/* Style Definitions */
+table.MsoNormalTable
+{mso-style-name:"Table Normal";
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-style-noshow:yes;
+mso-style-priority:99;
+mso-style-qformat:yes;
+mso-style-parent:"";
+mso-padding-alt:0in 5.4pt 0in 5.4pt;
+mso-para-margin-top:0in;
+mso-para-margin-right:0in;
+mso-para-margin-bottom:10.0pt;
+mso-para-margin-left:0in;
+line-height:115%;
+mso-pagination:widow-orphan;
+font-size:11.0pt;
+font-family:"Calibri","sans-serif";
+mso-ascii-font-family:Calibri;
+mso-ascii-theme-font:minor-latin;
+mso-hansi-font-family:Calibri;
+mso-hansi-theme-font:minor-latin;}
+</style>
+<![endif]-->
+</p>
+<p class="MsoNormal" style="line-height: normal;"><span style='font-size: 12pt; font-family: "Arial","sans-serif";'>1.</span><span style='font-size: 7pt; font-family: "Times New Roman","serif";'>    </span><span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'><a href="http://plcbasics.net/"><span style="color: blue;">http://plcbasics.net/</span></a></span><span style='font-size: 12pt; font-family: "Times New Roman","serif";'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;"><span style='font-size: 12pt; font-family: "Arial","sans-serif";'>2.</span><span style='font-size: 7pt; font-family: "Times New Roman","serif";'>    </span><span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'><a href="http://www.plcmanual.com/"><span style="color: blue;">http://www.plcmanual.com/</span></a></span><span style='font-size: 12pt; font-family: "Times New Roman","serif";'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;"><span style='font-size: 12pt; font-family: "Arial","sans-serif";'>3.</span><span style='font-size: 7pt; font-family: "Times New Roman","serif";'>    </span><span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'><a href="http://literature.rockwellautomation.com/"><span style="color: blue;">http://literature.rockwellautomation.com/</span></a></span><span style='font-size: 12pt; font-family: "Times New Roman","serif";'><o:p></o:p></span></p>
+<p class="MsoNormal" style="line-height: normal;"><span style='font-size: 12pt; font-family: "Arial","sans-serif";'>4.</span><span style='font-size: 7pt; font-family: "Times New Roman","serif";'>    </span><span lang="EN-IN" style='font-size: 12pt; font-family: "Arial","sans-serif";'><a href="http://www.automation.siemens.com/"><span style="color: blue;">http://www.automation.siemens.com/</span></a></span><span style='font-size: 12pt; font-family: "Times New Roman","serif";'><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p> </o:p></p>
+<p><span style='font-size: 12pt; font-family: "Times New Roman","serif";'><o:p></o:p></span></p>
+<p class="MsoNormal" style="text-indent: -0.25in; line-height: normal;"><span style='font-size: 12pt; font-family: "Times New Roman","serif";'> </span><span style='font-size: 12pt; font-family: "Times New Roman","serif";'><o:p></o:p></span></p>
+<p><span style='font-size: 12pt; font-family: "Times New Roman","serif";'><o:p></o:p></span></p>
+<p class="MsoNormal"><span lang="EN-IN" style='font-size: 12pt; line-height: 115%; font-family: "Arial","sans-serif";'><o:p></o:p></span></p></div></div>
+</section>
+</div>
+<!-- An article can have a sidebar that contain related 
     links and additional material (however it is kept optional 
     at this moment) -->
-    <aside id="lab-article-sidebar" class="default">
-      <!-- put the content that you want to appear in the 
-      sidebar -->	
-    </aside>
-
-
-    <!-- Article footer can display related content and 
-    additional links -->						
-    <footer id="lab-article-footer" class="default">
-      <!-- Put the content that you want to appear here -->
-    </footer>
-
-  </article>
-
-
-  <!-- Links to other labs, about us page can be kept the lab 
+<aside class="default" id="lab-article-sidebar">
+<!-- put the content that you want to appear in the 
+      sidebar -->
+</aside>
+<!-- Article footer can display related content and 
+    additional links -->
+<footer class="default" id="lab-article-footer">
+<!-- Put the content that you want to appear here -->
+</footer>
+</article>
+<!-- Links to other labs, about us page can be kept the lab 
   footer-->
-  <footer id="lab-footer" class="default">
-    <!-- Put the content here-->
-  </footer>
-
-</div>		
-
-</body>
-</html>
+<footer class="default" id="lab-footer">
+<!-- Put the content here-->
+</footer>
+</div>
+</body></html>

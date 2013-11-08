@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/ccnsb07/ccnsb07/!svn/ver/133/python-scripts
+END
+shutdown
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/ccnsb07/ccnsb07/!svn/ver/133/python-scripts/shutdown
+END
+build
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/ccnsb07/ccnsb07/!svn/ver/133/python-scripts/build
+END
+startup
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ccnsb07/ccnsb07/!svn/ver/133/python-scripts/startup
+END
+restore
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/ccnsb07/ccnsb07/!svn/ver/133/python-scripts/restore
+END
+dependencies.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/ccnsb07/ccnsb07/!svn/ver/133/python-scripts/dependencies.txt
+END
+backup
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/ccnsb07/ccnsb07/!svn/ver/133/python-scripts/backup
+END
+initialise
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/ccnsb07/ccnsb07/!svn/ver/133/python-scripts/initialise
+END

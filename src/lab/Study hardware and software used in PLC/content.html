@@ -51,7 +51,7 @@ edit -->
       <header id="experiment-article-heading" class="heading">
         <!-- You can add a welcome message or title of the 
         experiment here -->
-        Develop a ladder program for DOL starter
+        Study hardware and software used in PLC
         <!-- Add any additional element if required with proper 
         enclosing-->
       </header>
@@ -85,14 +85,15 @@ edit -->
           <div id="experiment-article-section-1-heading" 
           class="heading">
             Aim
-          </div> 
+          </div>
+
           <!-- Write the section content inside a paragraph 
           element, You can also include images with <img> tag -->
           <div id="experiment-article-section-1-content" 
-          class="content">	
+          class="content"> 
             <h2>Aim</h2><p>
-            To Develop a ladder program for DOL starter.
-            </p><h2>Objective:-</h2><ol>1. To understand working of DOL starter<br>2. Develop a ladder program for starting an electrical motor using DOL starter<br></ol>
+            To study  hardware and software associated with PLC
+            </p><h2>Objective:-</h2><ol>1. Learn the basics and hardware components of PLC<br>2. Understand  configuration of PLC system<br>3. Study various building blocks of PLC<br></ol>
          </div>
       </section>
  <section id="experiment-article-section-6">
@@ -110,50 +111,50 @@ edit -->
 
           <div id="experiment-article-section-6-content" 
           class="content">
-          <p>     	
+          <p> 	
               <b>Q1.</b> 
-              An electric motor converts <br> 
+              The term ‘PLC’ stands for <br> 
               <input type="radio" name="q1" id="q1" value="1"> 
-              Mechanical energy into electrical energy<br> 
+              Programmable logic Center<br> 
               <input type="radio" name="q1" id="q1" value="0">
-                Electric energy in mechanical energy <br/>
+                Programmable logic controller <br/>
 		<input type="radio" name="q1" id="q1" value="0">
-                Both a and B <br/><br/> 
+                Process logic control<br/><br/> 
               
               <b>Q2.</b> 
-              ---- is a unit to measure the output power of an electric motor<br> 
+              For an electromagnetic relay two types of contacts available are<br> 
               <input type="radio" name="q2" id="q2" value="1"> 
-              HV<br> 
+             Nominal close and Nominal open<br> 
               <input type="radio" name="q2" id="q2" value="0">
-                Hz<br/>
+                Normally close and Normally open<br/>
 		<input type="radio" name="q2" id="q2" value="0">
-               HP <br/><br/> 
+               Nominal close and Partial open  <br/><br/> 
               
               <b>Q3.</b> 
-             The electric motor consists of<br> 
+              Originally PLCs were designed to control<br> 
               <input type="radio" name="q3" id="q3" value="1"> 
-             Battery<br> 
+             Composite Processes<br> 
               <input type="radio" name="q3" id="q3" value="0">
-               Magnet<br/>
+               Continuous processes <br/>
 		<input type="radio" name="q3" id="q3" value="0">
-                A spark plug<br/><br/> 
+                Batch Processes <br/><br/> 
               <b>Q4.</b> 
-            The motor armature acts as<br> 
+             The term ‘analog’ refers to<br> 
               <input type="radio" name="q4" id="q4" value="1"> 
-             a rotor<br> 
+             A signal which is constant w.r.t time<br> 
               <input type="radio" name="q4" id="q4" value="0">
-                an axle <br/>
+                A signal which is continuously varying w.r.t time<br/>
 		<input type="radio" name="q4" id="q4" value="0">
-               a stator<br/><br/> 
+                A signal which is not varying w.r.t time<br/><br/> 
               
               <b>Q5.</b> 
-            For operation of the ….. application electric motor is not required<br> 
-              <input type="radio" name="q5" id="q5" value="1">                	
-	Refrigerator<br> 
+             The word ‘CPU’ in microprocessor systems is<br> 
+              <input type="radio" name="q5" id="q5" value="1"> 
+              Central Processing Unit<br> 
               <input type="radio" name="q5" id="q5" value="0">
-                Water filter <br/>
+                Control Process and Use<br/>
 		<input type="radio" name="q5" id="q5" value="0">
-                Mixer<br/><br/> 
+               Control Process Unit <br/><br/> 
               <input type="submit" value="Submit Answers" 
                 class="button" />
             </p>
@@ -181,41 +182,111 @@ edit -->
         <!-- Write the section content inside a paragraph 
         element, we can also include images with <img> tag -->
         <div id="experiment-article-section-2-content" 
-        class="content">
-          <p><h2>Working of Direct-On-Line (DOL) starter:</h2><p> One method of starting electric motors is using direct on line (DOL) or across the line starter. In this method full line voltage is applied to the motor terminals. This is simplest type of motor starter. An electrical wiring diagram for single phase DOL starter is shown below.</p><img src="media/Direct-On-Line.jpg" /><br><p>A DOL motor starter contains fuse and over load relay (OLR) for protection purpose. The starter can be contain momentary contact or maintained contact push buttons. The example considered here is momentary contact push buttons. For starting purpose normally open (NO) push button is preferred whereas normally closed (NC) push button is used to stop the motor.</p><p>The excessive supply voltage drop causing high inrush current is the criteria to limit the use of DOL starter. Conveyor motors, water pumps are the applications where DOL starters are used.</p><h2>Procedure:</h2>
+        class="content"><h2>Evolution of PLC:-</h2>
+ <p>
+When the first electronic machine control was designed, relays were to control the machine logic.</p>
  
-Problem Statement:  To start a motor using DOL starter .<br>
-The simple P&I diagram for this problem is as below.<br>
-<img src="media/DOL_P&I diagram.jpg" /><br>
-Listing of Input and Output devices:<br>
+Relay logic has its own limitations.<br>
+ <ol>
+1. Less reliability<br>
  
+2. The delay involved in switching of contacts<br>
  
-Inputs:  PB1- To start the motor<br>
+3. Less flexibility and difficult troubleshooting due to hard wired connection<br>
+ </ol>
  
-             PB2- To stop the motor<br>
- 
-Output: M1- Motor<br>
- 
- Sequence of Events :<br>
- 
-1.    When Start push button (PB1) is pressed, Motor (M1) has to start.<br>
- 
-2.    If Start pushbutton (PB1) is released and Stop pushbutton (PB2) is not pressed, Motor (M1) should remain on.<br>
- 
-3.   When Stop push button (PB2 is pressed, Motor (M1) has tol stop.<br>
- 
-4.    If stop push button is released and start is not pressed (released) motor shouldl remain off.<br>
- 
- 
-The Boolean equation to represent this sequence is  
-<img src="media/ladder diagram _1.jpg" /><br>
-The ladder diagram  to implement these equations is shown below.
- 
- <img src="media/Latch_Unlatch.jpg" /><br>
-<p>AS the momentary contact push buttons are used here, the condition of  PB1 is maintained through contact of coil C1. This contact is called as latching contact.</p><p>The same sequence of event can be executed by using latch and unlatch instruction in the following way.</p>
 
-          </p>
+       <h2>What is PLC?</h2>
+ 
+     <p>    A Programmable Logic Controller , PLC, or Programmable Controller is an electronic device
+used for Automation of industrial processes, such as control of machinery on factory assembly lines.  A programmable controller is a digitally operating electronic apparatus which uses a programmable memory for the internal storage of instructions for implementing specific functions, such as logic, sequencing, timing, counting and arithmetic, to control various machines or processes  through digital or analog input/output devices.Unlike general purpose computers, the PLC is designed for multiple inputs and output arrangements, extended temperature ranges, immunity to electrical noise, and resistance to vibrations and impacts.</p>
+ <p>
+Programs to control machine operation are typically stored in battery-backed or non volatile memory. A PLC is an example of a real time system since output results are produced in response to input conditions within a bounded time, otherwise unintended operation  results.</p>
+ 
+<h2>Basic Components of PLC:-</h2>
+ 
+1. CPU and Memory module<br>
 
+2. Power supply<br>
+
+3. Input and output module<br>
+
+4. Programming device<br>
+ 
+ <img src="media/Block dia of PLC.jpg" /><br>
+<h3>CPU and Memory Module:-</h3>
+<p>
+This is the device where PLC program is stored and processed. The size and type of CPU
+ 
+determines the programming functions available, size of the application logic available, amount of
+ 
+memory supported, and processing speed.</p>
+
+ 
+<h3>Power Supply:-</h3>
+<p>
+The power supply provides power for the PLC system. It provides internal DC current to operate the processor  logic circuitry and input/output assemblies. This can be built into the PLC or an external unit. Common voltage levels required by the PLC are 24Vdc, 120Vac, 220Vac. </p>   
+
+<h3>Input and Output Module:-</h3>
+<p>
+Inputs carry signals from the field (process) to the controller. Various types of inputs  can be  switches, pressure sensors, transmitters etc. The field devices to whom PLC sends the results of logical operations are the output devices. These are the actuators that  adjusts or control the process,  motors, lights, relays, pumps, etc. Many types of inputs and outputs can be connected to a PLC and they can be categorised mainly as analog and digital. Digital inputs and outputs operate on  discrete or binary change  i.e. on/off, open/close. Analog inputs and outputs change continuously with reference to time.</p>
+ 
+<h3>Programming Device:-</h3>
+<p>
+The PLC is programmed using a special software using  computer or  hand Held Terminal(HHT) that can load and change the logic inside.
+</p>
+<h2>Operation of a PLC system:-</h2>
+<p>
+The operation of the PLC is determined by 3 steps. 
+ <p>    
+1. Reading the field status form input devices<br>
+2. Execution or solving the logic, and <br>
+3. Updating the output devices status.<br></p>
+﻿﻿<img src="media/operatiom of PLC.jpg" /><br> 
+<h3>PLC Program:-</h3>
+<p>
+PLC Program is a  Logic that is executed by the CPU. This logic can be written in the form of  Ladder diagram, Instruction List, Sequential Function Charts, Structured text or Functional block diagram. These are the languages used for writing logic  as per  IEC  standard. The program is then downloaded to the PLC. This is usually done by temporarily connecting the PC or HHT to the PLC. Once the program is downloaded to the CPU, it is usually not necessary for the PC to remain connected.</p>
+ 
+<h3>PLC Scan:-</h3> 
+ <p>
+Once the program is downloaded in the CPU, the PLC  is switched to "run" mode and the PLC executes the application program. The CPU regularly reads the status of the input devices, and sends data to the output devices as per the logical results after execution of the program.
+The process of  Initialization when power is turned on, Reading inputs, Executing logic, and
+modifying outputs is called as PLC Scan Cycle. </p>
+ 
+<img src="media/Scanning Process of PLC.jpg" /><br>
+
+ <h3>Memory</h3>
+ <p>
+The logic or application program is stored in memory. As the PLC executes logic, it may also read and store values to memory. The values may  be referenced by the application program.</p>
+ 
+<h2>PLC Input and Output Devices:-</h2> 
+ <p>
+Two major types of Input/Output  modules are<br>
+1. Digital - binary devices which must be in one of the two states: on or off.<br>
+2. Analog - continuos devices - sense and respond to a range of values.<br>
+ </p>
+<h3>Digital I/O</h3>
+<p> 
+Common digital field input devices include pushbuttons, limit switches,  photosensor etc. Common digital output devices include relays, motor starters, and solenoid valves.
+</p>
+<h3>Analog I/O</h3>
+ <p>
+Common analog input devices are transmitters used for sensing various parameters. Common output signals include motor speed, valve position, air pressure, etc.
+</p><p>
+I/O modules connect "real world" field devices to the controller. They convert the electrical signals used in the field devices into electronic signals that can be used by the control system, and translate real world values to IO table values.</p>
+ 
+ 
+﻿  <h3> I/O Wiring:-</h3>
+
+ <h3>Example of Input Module Wiring Diagram:-</h3>
+<img src="media/Input Wiring1.jpg" /><br>
+  
+Example of Output Wiring Diagram:-<br>
+
+<img src="media/Output wiring1.jpg" />
+<p>Sinking and Sourcing Operation:-</p><li>If the device provides current  to during it’s on state, the device is said to be souring current.</li><br><li>If the device receives current in the ON or true state, then it is sinking current.<br></li>
+ 
+         
         </div>
       </section>
 
@@ -234,47 +305,12 @@ The ladder diagram  to implement these equations is shown below.
 	
           <div id="experiment-article-section-7-content" 
           class="content">
-	    <p><h2>Open the Simulator window as described in the last experiment</h2><ol>
-1.    The Latch and unlatch instructions are used for holding the output status.<br>
-2.    The tag name of latch and unlatch output bit must be same.<br>
-3.    Once you toggle the input  bit for the latch; even if you release it by toggling once again, the output bit remains
-      latched.<br>
-4.    To unlatch the output  you will have to  toggle the input bit in the unlatch rung and the output will be de-energised.
-Execute  the following ladder on simulator and observe the output status<br></ol> <img src="media/PLC_expt3_1.jpg" /><br>
-<p>You can develop ladder for a DOL “Direct On Line” starter using these instructions.<br>
- You can also develop the logic using start and stop push buttons as explained under theory tab
-     Observe the output status at different input conditions.</p>
- 
- 
+	    <p>requires Adobe flash player
  	    </p>
 	  </div>
 	
         </section>
       
-
-
-      <section id="experiment-article-section-4">
-
-        <div id="experiment-article-section-4-icon" 
-        class="icon">
-	  <!-- Enclose the icon image of your lab.-->
-	  <img src="../images/simulation.jpg" />
-	</div>
-
-        <div id="experiment-article-section-4-heading" 
-        class="heading">
-          Experiment
-        </div>
-
-        <div id="experiment-article-section-4-content" 
-        class="content">
-          <p>
-	       <a href="../Develop a ladder program for DOL starter/index.html">click here for simulator</a>
-            
-          </p>
-        </div>
-
-      </section>
 <section id="experiment-article-section-6">
       
           <div id="experiment-article-section-6-icon" 
@@ -289,50 +325,50 @@ Execute  the following ladder on simulator and observe the output status<br></ol
           </div>	
           <div id="experiment-article-section-6-content" 
           class="content">
-          <p>	   
+          <p>     
               <b>Q1.</b> 
-              DOL stands for<br> 
+              The PLCs were originally designed to replace<br> 
               <input type="radio" name="q1" id="q1" value="1"> 
-              Direct on line switch<br> 
+              Analog controllers<br> 
               <input type="radio" name="q1" id="q1" value="0">
-                Digital on line starter<br/>
+                Microcomputers<br/>
 		<input type="radio" name="q1" id="q1" value="0">
-               Direct on line starter<br/><br/> 
+               Hardwired relays<br/><br/> 
               
               <b>Q2.</b> 
-              A DOL motor starter contains---------- for protection purpose.<br> 
+              What type of input a limit switch is w.r.t PLC<br> 
               <input type="radio" name="q2" id="q2" value="1"> 
-              Over load relay<br> 
+              Analog<br> 
               <input type="radio" name="q2" id="q2" value="0">
-                Relay<br/>
+               Composite <br/>
 		<input type="radio" name="q2" id="q2" value="0">
-              Switch<br/><br/> 
+              Digital<br/><br/> 
               
               <b>Q3.</b> 
-             For starting of an electric motor ----------is preferred<br> 
+              In a ladder diagram an output would be represented by<br> 
               <input type="radio" name="q3" id="q3" value="1"> 
-             normally open (NO) push button<br> 
+             A closed contact symbol<br> 
               <input type="radio" name="q3" id="q3" value="0">
-              normally open (NO) switch<br/>
+              An open contact symbol <br/>
 		<input type="radio" name="q3" id="q3" value="0">
-               normally closed (NC) push button<br/><br/> 
+               A coil symbol<br/><br/> 
               <b>Q4.</b> 
-             ------------ is the criteria to limit the use of DOL starter<br> 
+             When referring to the capacity, the abbreviation K represents ---- locations or words<br> 
               <input type="radio" name="q4" id="q4" value="1"> 
-             Armature Current</font> <br> 
+             1000</font> <br> 
               <input type="radio" name="q4" id="q4" value="0">
-               Size of the motor<br/>
+               1024<br/>
 		<input type="radio" name="q4" id="q4" value="0">
-                High inrush current<br/><br/> 
+                1036<br/><br/> 
               
               <b>Q5.</b> 
-           In which of the following applications DOL starter can be used<br> 
+           The basic difference between a PLC and a relay logic is that<br> 
               <input type="radio" name="q5" id="q5" value="1"> 
-             Conveyor belts<br> 
+             Different types of input/outputs devices are used<br> 
               <input type="radio" name="q5" id="q5" value="0">
-               Water pumps<br/>
+                Different voltage levels for inputs/outputs are use<br/>
 		<input type="radio" name="q5" id="q5" value="0">
-               Both a and b <br/><br/> 
+                One can be programmed other not<br/><br/> 
               <input type="submit" value="Submit Answers" 
                 class="button" />
             </p>
@@ -351,14 +387,17 @@ Execute  the following ladder on simulator and observe the output status<br></ol
           <div id="experiment-article-section-7-heading" 
           class="heading">
 	    Review Questions
-	  </div>
+	  </div> 
           <div id="experiment-article-section-7-content" 
           class="content">
-	    <p><ol>1. What is DOL starter?<br>2. How DOL starter works?<br>3. Why OLR is used in the control circuit of DOL starter?<br>4. What is difference between maintained push button and momentary contact push button?<br>5.What is the difference between Relay and Contactor?<br>
+	    <p><ol>1. What is PLC?<br>2.What are the basic components of a PLC?<br>3. Explain the operation of a PLC system.<br>4. What are the advantages of PLC?<br>5. What is Sinking and Sourcing operation with reference to PLC I/O module?<br>
 	    </ol></p>
 	  </div>
 	
-        </section>  		
+        </section>  
+     
+			
+		
         <section id="experiment-article-section-8">
    
           <div id="experiment-article-section-8-icon" 
@@ -375,6 +414,9 @@ Execute  the following ladder on simulator and observe the output status<br></ol
           class="content">
             <ul>
 		<li>
+                Gary Dunning, “Introduction Programmable Logic Controllers”, CENGAGE 
+              </li>
+		<li>
                 Gary Dunning, “Introduction Programmable Logic Controllers”, CENGAGE Learning, 3rd Ed., 2006.
               </li> 
 		<li>
@@ -383,13 +425,7 @@ Execute  the following ladder on simulator and observe the output status<br></ol
 		<li>
                  W.Bolton, “Programmable Logic Controllers”, Elsevier, 4th Ed., 2006.
               </li> 
-		<li>
-                B.L.Theraja,"Electrical Technology " 
-              </li> 
-		<li>
-                  Geoffrey Stokes," Handbook of electrical installation practices"
-              </li> 
-			
+		 	
               <li>
                 <a href="htthttp://plcbasics.net/">http://plcbasics.net/</a>
               </li>
@@ -407,7 +443,25 @@ Execute  the following ladder on simulator and observe the output status<br></ol
           </div>
 
         </section>
-
+<section id="experiment-article-section-7">
+	  
+          <div id="experiment-article-section-7-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/photogallery.jpg" />
+	  </div>
+	
+          <div id="experiment-article-section-7-heading" 
+          class="heading">
+	    Photo Gallery
+	  </div> 
+          <div id="experiment-article-section-7-content" 
+          class="content">
+	    <p>PLC Architecture:-<br><img src="media/PLC Lab Architecture.jpg" /><br>PLC panel internal layout:-<br><img src="media/PLC Panel.jpg" /><br>PLC I/O Rack:-<br><img src="media/PLC Rack.jpg" /><br>
+	    </ol></p>
+	  </div>
+	
+        </section>  
       </div>
 
 

@@ -28,7 +28,7 @@ edit -->
       <!-- Write the name of your lab and link it to the home 
       page of your lab (h1 tag is preferred while writing your 
       lab name)-->
-      <a href="../index.html">Physics Lab</a>	
+      <a href="../index.html">Programmable Logic Controller</a>	
     </div>
 
     <!-- Add any additional element you want to add to the lab 
@@ -51,7 +51,7 @@ edit -->
       <header id="experiment-article-heading" class="heading">
         <!-- You can add a welcome message or title of the 
         experiment here -->
-        Simple Pendulum
+        Implementation of Logic gates
         <!-- Add any additional element if required with proper 
         enclosing-->
       </header>
@@ -84,41 +84,84 @@ edit -->
           div tag. -->
           <div id="experiment-article-section-1-heading" 
           class="heading">
-            Introduction
+            Aim
           </div>
 
           <!-- Write the section content inside a paragraph 
           element, You can also include images with <img> tag -->
           <div id="experiment-article-section-1-content" 
           class="content">	
-            <p>
-            In this module, basic concepts of simple oscillator 
-            are explained. Initially, an example of simple 
-            pendulum is taken and the basic terminology i.e., 
-            what is <span class="term">initial displacement</span>, <span class="term">
-            initial velocity</span>,<span class="term">natural frequency
-            </span> and <span class="term">time period</span> are explained. 
-            Each of these terms is illustrated by giving an 
-            example, where user can enter his value and observe 
-            the behavior of structure for his input.
-            </p>
-
-            <p>
-            Simple harmonic oscillator consists of a <span class="term"> 
-            mass (m) </span> hanging from a string of <span class="term">
-            length (l)</span>, fixed at a pivot point P. 
-            When the mass is displaced from its <span class="term"> mean 
-            position </span> by giving some initial displacement 
-            (angle), oscillator starts swinging back and fourth 
-            with <span class="term">periodic motion</span>.
-            </p>
-
-          <img src="../images/Pendulum.JPG" alt="pendulum">
-        </div>
-
-
+            <h2>Aim</h2><p>
+            To understand Simple Ladder program.
+            </p><h2>Objective:-</h2><ol>1. Develop a ladder using standard procedure.<br>2. Solve the problem using ladder programming.<br></ol>
+         </div>
       </section>
+ <section id="experiment-article-section-6">
+      
+          <div id="experiment-article-section-6-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/prequiz.jpg" />
+	  </div>
 
+          <div id="experiment-article-section-6-heading" 
+          class="heading">
+            Pre Test
+          </div>
+
+          <div id="experiment-article-section-6-content" 
+          class="content">
+          <p>      
+              <b>Q1.</b> 
+              The scan time of PLC depends upon <br> 
+              <input type="radio" name="q1" id="q1" value="1"> 
+              Processor speed and program length <br> 
+              <input type="radio" name="q1" id="q1" value="0">
+                I/O density  <br/>
+		<input type="radio" name="q1" id="q1" value="0">
+                Both the above <br/><br/> 
+              
+              <b>Q2.</b> 
+              The programming device must be connected to the controller<br> 
+              <input type="radio" name="q2" id="q2" value="1"> 
+              When entering the program <br> 
+              <input type="radio" name="q2" id="q2" value="0">
+                When program is running <br/>
+		<input type="radio" name="q2" id="q2" value="0">
+               At all times <br/><br/> 
+              
+              <b>Q3.</b> 
+              The ----- will account for the most of the total memory of a given PLC program<br> 
+              <input type="radio" name="q3" id="q3" value="1"> 
+             User program</font> <br> 
+              <input type="radio" name="q3" id="q3" value="0">
+               Output image table  <br/>
+		<input type="radio" name="q3" id="q3" value="0">
+                Input image table<br/><br/> 
+              <b>Q4.</b> 
+             While developing the ladder program the contacts are in<br> 
+              <input type="radio" name="q4" id="q4" value="1"> 
+             Any state (either energised or de-enrgised)</font> <br> 
+              <input type="radio" name="q4" id="q4" value="0">
+                De-energised state <br/>
+		<input type="radio" name="q4" id="q4" value="0">
+                Energised state<br/><br/> 
+              
+              <b>Q5.</b> 
+             Which of the following is not a factor in determining the total scan time of a PLC<br> 
+              <input type="radio" name="q5" id="q5" value="1"> 
+              Program length<br> 
+              <input type="radio" name="q5" id="q5" value="0">
+                Total no. of inputs and outputs <br/>
+		<input type="radio" name="q5" id="q5" value="0">
+                Programming method <br/><br/> 
+              <input type="submit" value="Submit Answers" 
+                class="button" />
+            </p>
+ 
+          </div>
+
+        </section>
       <!-- Second section of the article-->
       <section id="experiment-article-section-2">
         
@@ -140,64 +183,69 @@ edit -->
         element, we can also include images with <img> tag -->
         <div id="experiment-article-section-2-content" 
         class="content">
-          <p>
-          There are two solutions to \(ax^2 + bx + c = 0\) and 
-          they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$ 
-          </p>
-          <p>
-          By applying <span class="term">Newton's second law</span> for 
-          rotational systems, the equation of motion for the 
-          pendulum may be obtained.
-          </p> 
-
-          <p>
-          Here \(\tau\)  =  <span class="term">Torque </span>;   I  =  
-          <span class="term">Moment of Inertia</span>;
-          &alpha; = <span class="term"> Angular
-          Velocity</span>. m is mass of the oscillator, l is
-          the length of the oscillator and \(\theta\) is initial
-          displacement. 
-          </p>
-          
-          <p>							
-          If the amplitude of the angular displacement is 
-          small then we can use the approximation 
-          $$ sin \theta \approx \theta $$
-
+          <p><h2>Pre-requisites:- </h2><p>Basics of Digital Electronics and Boolean Algebra:</p><p>Digitization is a process where continuous analog signal is converted into a finite number of discrete states. These states are well seperated  so that noise does not create errors.</p><p>The resulting digital signal has following advantages:</p><ul>storage over arbitrary periods of time<br>flawless retrieval and reproduction of the stored information</br>flawless transmission of the information<br></ul><p>Some information is essentially digital. Hence it is natural to process and manipulate such information using purely digital techniques. Examples are numbers and words.</p><p>The drawback to digitization is that a single analog signal (e.g. a voltage which is a function of time, like a stereo signal) needs many discrete states, or bits, in order to give a satisfactory reproduction.</p> </h2><img src="../images/Binary Logic state.jpg" /><h2>Logic </h2>
+<p>What can a digital circuit do?<br>The simplest task we can think of is a combinational type of logic decision.<br>For example, we can design a digital electronic circuit to make an instant decision based on some information. Here we emphasize “instant” in the decision making process. That means, the process has no time delay.</p><p>X =  It is a sunny day? Yes<br>Y =  Is it Sunday or holiday? Yes<br>Action  Z =  Go for shopping<br>The  rule is  Z = X and Y. The circuit is a simple AND gate.<br><h2>Truth Tables:</h2><img src="../images/logic gates.jpg" /><h2>Boolean Algebra:</h2><p>Logic can also be expressed in algebraic form.<br>e.g.Truth Table for AND gate:<br></p><img src="../images/Truth Table for AND gate.jpg" /></p><p>Boolean Algebra Simplification:-</p><h2>Basic Laws:</h2><img src="../images/Basic Laws.jpg" />
+<h1>Theory</h1><h2>Introduction</h2><p>Each manufacturer of PLC systems has own style of writing the instructions. Different PLCs has different instruction sets but even some common basic instructions are shared by all the PLCs. All manufacturers give different software packages for programming PLCs. Ladder is most commonly used programming language. Prior to PLCs, relay logic was used in industry. Ladders were developed to mimic or imitate relay logic.</p><p>Relay Logic / Instructions<br>  A relay is simple magnetic device which acts as a control switch.</p><p>When the switch is on, current will flow through the coil on iron piece. This iron core acts a electromagnet and due to the magnetic field upper contact gets attracted towards lower one and circuit gets completed, allowing current to flow from load.</p><h2>Ladder Programming</h2><p>Ladder diagram is popular language of programming the PLCs. Ladder diagram shows the sequence of the logic execution which is presented diagrammatically. In ladder diagram, There are two vertical lines generally called as Phase (positive) or neutral. Rungs which show current flow in horizontal direction are the sequence in which the logic executes. The Analogous to relay, ladder has two main symbols which are contacts and output coil. Generally each rung has inputs (contacts) on left hand side and outputs (coil) on the right hand side. These contacts and coils are called as bits of the relays. Each input and output are individual bit in I/O files. An instruction in ladder instructs PLCs how to respond to the bits in I/O files which are stored in the memory. Input contacts are the condition area, the conditions must be fulfilled to change the status of the output coils.<br></p><img src="../images/typical Ladder Diag.jpg" /><p>Most commonly used relay instructions used in PLC programming are as shown in the table below.<br><img src="../images/PLC programming table.jpg" />
           </p>
 
         </div>
       </section>
 
+ <section id="experiment-article-section-7">
+	  
+          <div id="experiment-article-section-7-icon" 
+          class="icon">
+	    <!-- Enclose the icon image of your lab. -->
+	    <img src="../images/procedure.jpg" />
+	  </div>
+	
+          <div id="experiment-article-section-7-heading" 
+          class="heading">
+	    Procedure
+	  </div>
+	
+          <div id="experiment-article-section-7-content" 
+          class="content">
+	    <p><h2>Important steps for developing Ladder using Simulator</h2><p>Please follow the steps so as to understand the procedure for developing ladder logic for various logical gates.</p><ol>1.  Prior to starting of the development of ladder diagram following steps needs to be understood:<br><ul> 
+a.    Understand the problem statement like test the logic for OR gate, AND Gate etc.<br>
+b.    Develop the logic on paper and validate the logic by considering various cases<br>
+c.    Prepare the truth table and test the logic using all valid cases<br>
+d.    Go to simulator icon and click on the “Simulator” button<br>
+e.    The PLC simulator will be opened in new window<br></ul>
+ 
+      2.    The procedure for writing the ladder diagram in the work space is as follows<br><ul>
+ 
+                                                 a. The screen shot for the first window will appear like this.<br><img src="media/PLC_expt1_1.jpg" /><br>
 
-      <section id="experiment-article-section-3">
-        
-        <div id="experiment-article-section-3-icon" 
-        class="icon">
-	  <!-- Enclose the icon image of your lab. -->
-	  <img src="../images/objective.jpg" />
-	</div>
-     
-        <div id="experiment-article-section-3-heading" 
-        class="heading">
-          Objective
-        </div>
+                  
+               The window will appear like this:<br><img src="media/PLC_expt1_2.jpg" /><br>
 
-        <div id="experiment-article-section-3-content" 
-        class="content">
-          <p>
-            Objective of simple harmonic oscillator experiment 
-            is to understand the concept of <span class="term">time period 
-            </span>(natural frequency) in <span class="term"> harmonic 
-            oscillations </span>.
-          </p> 
-       
-          <img  src="http://cite.iiit.ac.in/vlab/cITe/images/eerc/Expr1/simple-pendulum.JPG" 
-          alt="simple pendulum" />
+ b. Place the contacts as per the requirement by clicking the appropriate contact shown in the left pan of the window. In the example demonstrated below one normally contact and one coil is placed as shown the figure.<br><img src="media/PLC_expt1_3.jpg" /><br>
+ 
+ 
+ C.    Double Click on the contact or coil and you can give tag name like “start”, “stop” etc. Please ensure that the tag numbers are true replica of process connections. Similarly give tag name to coil like “motor”, “Lamp” etc. The final ladder will look like this.<br><img src="media/PLC_expt1_4.jpg" /><br>
+ 
+ 
+d.    Please note that the tag names are case sensitive and if you are using them in circuit as bit make sure that the correct tag name appears.<br>
+e.    Click the Run button available  at the left side of the window so the ladder will be ready for running and you can test your logic. Both sides of the rung will become green and this is the indication of run mode. Please not that in run mode the contact are not available so if you want to make changes you will have to go in design/program mode.<br>
+f. Double click on the contact and the window for toggling the contact will appear. As you press toggle the state of contact will change. Hence the output contact status will change. <br><img src="media/PLC_expt1_5.jpg" /><br>
+ 
 
-        </div>
+g.    Please remember the ladder contacts or the state of the inputs and outputs are always in de-energised state. The de-energised is that state wherein the contacts are in non-active state.<br>
+h.    You can once again toggle the contact and the output state will change. To add any contact you will have to go in programme mode. Click on the rung and add contacts.<br>
+i.    To delete any contact or output click on the contact green line below the contact will appear press “delete” the contact will be deleted.<br>
+j.    To reload the ladder, right click the mouse “Reload ”button will appear and after pressing the button the page will be ready for new ladder development.<br>
+k.    You can add seven elements in series and 5 elements in parallel.<br>
+l.    To add element in parallel click on the contact where you wish to add parallel branch. Select the branch and drag it to location where you wish to terminate the branch. The screen will appear as shown below.<br><img src="media/PLC_expt1_6.jpg" /><br>
 
-      </section>
+m.    Repeat the procedure and check the correctness of the logic.<br>
+n.    Similarly you can check the logic for OR, NOR, and NAND gates. Validate the truth tables and confirm the results.<br></ul>
+ 
+ 	    </p>
+	  </div>
+	
+        </section>
+      
 
 
       <section id="experiment-article-section-4">
@@ -216,153 +264,97 @@ edit -->
         <div id="experiment-article-section-4-content" 
         class="content">
           <p>
-	        Place or link to your experiment java applet 
-	        or flash file here. 
-	        
+	       <a href="../Implementation of Logic gates/index.html">click here for simulator</a>
             
           </p>
         </div>
 
       </section>
-
-      <section id="experiment-article-section-5">
-   
-        <div id="experiment-article-section-5-icon" 
-        class="icon">
-	  <!-- Enclose the icon image of your lab.-->
-	  <img src="../images/manual.jpg" />
-	</div>
-
-        <div id="experiment-article-section-5-heading" 
-        class="heading">
-          Manual
-        </div>
-
-        <div id="experiment-article-section-5-content" 
-        class="content">
-          <p> 
-            Start the experiment with the default values of 
-            length, mass and intial displacement (in angle). 
-            Pause the experiment after few cycles and note 
-            the observation.
-          </p> 
-
-        <h3>Observation 1:</h3> 
-          <ol> 
-            
-            <li>
-              Find the time period of the pendulum by noting the 
-              time interval of any one complete cycle from the 
-              response graph. 
-            </li> 
-
-            <li>
-              You may note that this time period value is same 
-              for any complete cycle.
-              <a  class="more" href="cITe/Documents/eerc/
-              pdf/1.manual.pdf">Read More</a>  
-            </li> 
-
-          </ol>
-
-          <a onclick="window.open('http://cite.iiit.ac.in/vlab/cITe/media/eerc/Expr1/shm.htm', 
-          null,'scrollbars=yes, width=' + (screen.availWidth) 
-          +',height=' + (screen.availHeight)); return false;"
-
-          href="http://cite.iiit.ac.in/vlab/cITe/media/eerc/Expr1/shm.htm">		   
-          <img src="http://cite.iiit.ac.in/vlab/cITe/images/demo.JPG" 
-          alt="" width="400" height="200"></a>
-
-          </div>
-
-        </section>
-
-        <section id="experiment-article-section-6">
+<section id="experiment-article-section-6">
       
           <div id="experiment-article-section-6-icon" 
           class="icon">
 	    <!-- Enclose the icon image of your lab.-->
-	    <img src="../images/quizzes.jpg" />
+	    <img src="../images/prequiz.jpg" />
 	  </div>
 
           <div id="experiment-article-section-6-heading" 
           class="heading">
-            Quizzes
-          </div>
-
+            Post Test
+          </div>	
           <div id="experiment-article-section-6-content" 
           class="content">
-            
-            <p>
-              
+          <p>      
               <b>Q1.</b> 
-              Time taken for one complete oscillation 
-              is called Time Period of the oscillator. <br> 
+              The logical AND function is similar to<br> 
               <input type="radio" name="q1" id="q1" value="1"> 
-                <font color="green"> True </font> <br> 
+              Contacts in series <br> 
               <input type="radio" name="q1" id="q1" value="0">
-                <font color="red"> False </font> <br/><br/> 
+                Combination of series- parallel contacts<br/>
+		<input type="radio" name="q1" id="q1" value="0">
+               Contacts in parallel<br/><br/> 
               
               <b>Q2.</b> 
-              Time period of the oscillator is constant for 
-              given values of mass, length and initial 
-              conditions.<br> 
+              The logical OR function is similar to<br> 
               <input type="radio" name="q2" id="q2" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q2" id="q2"value="0">
-                <font color="red"> False </font> <br/><br/> 
+              Combination of series- parallel contacts<br> 
+              <input type="radio" name="q2" id="q2" value="0">
+                Contacts in series <br/>
+		<input type="radio" name="q2" id="q2" value="0">
+              Contacts in parallel <br/><br/> 
               
               <b>Q3.</b> 
-              Value of Time period depends on initial 
-              conditions. <br> 
+              Which of the following logic operators are available in PLC?<br> 
               <input type="radio" name="q3" id="q3" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q3" id="q3"value="0">
-                <font color="red"> False </font> <br/><br/> 
-              
+             AND, OR <br> 
+              <input type="radio" name="q3" id="q3" value="0">
+              NOT  <br/>
+		<input type="radio" name="q3" id="q3" value="0">
+               All of the above<br/><br/> 
               <b>Q4.</b> 
-              Value of time period depends on mass. <br> 
+             What is the output of NOR block if any one of the input is high or active or true<br> 
               <input type="radio" name="q4" id="q4" value="1"> 
-                <font color="green"> True </font> <br> 
+             1</font> <br> 
               <input type="radio" name="q4" id="q4" value="0">
-                <font color="red"> False </font> <br/><br/> 
+               0 <br/>
+		<input type="radio" name="q4" id="q4" value="0">
+                Can’t say<br/><br/> 
               
               <b>Q5.</b> 
-              Value of time period depends on length of the 
-              oscillator. <br> 
+            What is the output of NAND block if any one of the two inputs is high or active or true<br> 
               <input type="radio" name="q5" id="q5" value="1"> 
-                <font color="green"> True </font> <br> 
-              <input type="radio" name="q5" id="q5"value="0">
-                <font color="red"> False </font> <br/><br/> 
+              1<br> 
+              <input type="radio" name="q5" id="q5" value="0">
+                0<br/>
+		<input type="radio" name="q5" id="q5" value="0">
+                Can’t say <br/><br/> 
               <input type="submit" value="Submit Answers" 
                 class="button" />
             </p>
-
+ 
           </div>
 
         </section>
-
-        <section id="experiment-article-section-7">
+ <section id="experiment-article-section-7">
 	  
           <div id="experiment-article-section-7-icon" 
           class="icon">
-	    <!-- Enclose the icon image of your lab. -->
-	    <img src="../images/procedure.jpg" />
+	    <!-- Enclose the icon image of your lab.-->
+	    <img src="../images/objective.jpg" />
 	  </div>
 	
           <div id="experiment-article-section-7-heading" 
           class="heading">
-	    Procedure
+	    Review Questions
 	  </div>
-	
           <div id="experiment-article-section-7-content" 
           class="content">
-	    <p>
-	      Procedure for the experiment is as follows.
-	    </p>
+	    <p><ol>1. What are the different types of logic gates?<br>2. Draw the truth table for NAND, NOR and XOR gates.<br>3. How does a relay functions?<br>4. Explain  different relay instructions used in PLC programming.<br>5. What are the standard setps involved in developing a ladder?<br>
+	    </ol></p>
 	  </div>
 	
-        </section>
+        </section>  
+     
 			
 		
         <section id="experiment-article-section-8">
@@ -375,26 +367,41 @@ edit -->
 
           <div id="experiment-article-section-8-heading" 
           class="heading">
-            Further Readings
-          </div>
-
+            Reference
+          </div> 
           <div id="experiment-article-section-8-content" 
           class="content">
-            <ul>	
+            <ul>
+		<li>
+                Gary Dunning, “Introduction Programmable Logic Controllers”, CENGAGE Learning, 3rd Ed., 2006.
+              </li> 
+		<li>
+                John R. Hackworth, Frederick D. Hackworth Jr., “Programmable Logic Controllers ”, Pearson, 2004. 
+              </li> 
+		<li>
+                 W.Bolton, “Programmable Logic Controllers”, Elsevier, 4th Ed., 2006.
+              </li> 
+		<li>
+                Leach  Malvino ," Digital principles and application  
+              </li> 
+		<li>
+                 Bouwens," Digital Instrumentation "
+              </li> 
+		<li>
+                 David Bell," Solid state pulse circuits"  
+              </li> 	
               <li>
-                <a href="http://en.wikipedia.org/wiki/
-                Simple_harmonic_motion">http://en.wikipedia.org/wiki/Simple_harmonic_motion</a>
+                <a href="htthttp://plcbasics.net/">http://plcbasics.net/</a>
               </li>
               <li>
-                <a href="http://www.physics.uoguelph.ca/
-                tutorials/shm/Q.shm.html">http://www.physics.uoguelph.ca/tutorials/shm/Q.shm.html</a>
+                <a href=" http://www.plcmanual.com/"> http://www.plcmanual.com/</a>
               </li> 
+              
               <li>
-                Dynamics of structures by Anil K chopra. 
-              </li> 
-              <li>
-                <a href="http://surendranath.tripod.com/Applets/
-                Oscillations/SHM/SHMApplet.html">http://surendranath.tripod.com/Applets/Oscillations/SHM/SHMApplet.html</a> 
+                <a href="http://literature.rockwellautomation.com/">http://literature.rockwellautomation.com/</a> 
+              </li>
+		<li>
+                <a href="http://www.automation.siemens.com/">http://www.automation.siemens.com/</a> 
               </li>
             </ul>
           </div>

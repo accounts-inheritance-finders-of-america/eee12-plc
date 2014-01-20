@@ -51,7 +51,7 @@ edit -->
       <header id="experiment-article-heading" class="heading">
         <!-- You can add a welcome message or title of the 
         experiment here -->
-        Implementation of Logic gates
+        Develop an application using OFF Delay Timer
         <!-- Add any additional element if required with proper 
         enclosing-->
       </header>
@@ -92,8 +92,8 @@ edit -->
           <div id="experiment-article-section-1-content" 
           class="content">	
             <h2>Aim</h2><p>
-            To understand Simple Ladder program.
-            </p><h2>Objective:-</h2><ol>1. Develop a ladder using standard procedure.<br>2. Solve the problem using ladder programming.<br></ol>
+           To Develop an application using OFF Delay Timer
+            </p><h2>Objective:-</h2><ol>1. Study the timing diagram of OFF Delay Timer.<br>2. Solve the assignment of Toff timer.<br></ol>
          </div>
       </section>
  <section id="experiment-article-section-6">
@@ -111,50 +111,50 @@ edit -->
 
           <div id="experiment-article-section-6-content" 
           class="content">
-          <p>      
+          <p>      		  	
               <b>Q1.</b> 
-              The scan time of PLC depends upon <br> 
+              Which bit of timer ensures that the timing process is over i.e. accumulated and preset time is equal <br> 
               <input type="radio" name="q1" id="q1" value="1"> 
-              Processor speed and program length <br> 
+             DN<br> 
               <input type="radio" name="q1" id="q1" value="0">
-                I/O density  <br/>
+                TT <br/>
 		<input type="radio" name="q1" id="q1" value="0">
-                Both the above <br/><br/> 
+                EN  <br/><br/> 
               
               <b>Q2.</b> 
-              The programming device must be connected to the controller<br> 
+              Toff stands for<br> 
               <input type="radio" name="q2" id="q2" value="1"> 
-              When entering the program <br> 
+              On delay timer<br> 
               <input type="radio" name="q2" id="q2" value="0">
-                When program is running <br/>
+                Off delay timer<br/>
 		<input type="radio" name="q2" id="q2" value="0">
-               At all times <br/><br/> 
+              Retentive timer <br/><br/> 
               
               <b>Q3.</b> 
-              The ----- will account for the most of the total memory of a given PLC program<br> 
+              DN bit for Ton timer is initially high when the program is switched to run mode after downloading<br> 
               <input type="radio" name="q3" id="q3" value="1"> 
-             User program</font> <br> 
+             True <br> 
               <input type="radio" name="q3" id="q3" value="0">
-               Output image table  <br/>
+               False <br/>
 		<input type="radio" name="q3" id="q3" value="0">
-                Input image table<br/><br/> 
+                Can’t say<br/><br/> 
               <b>Q4.</b> 
-             While developing the ladder program the contacts are in<br> 
+             Which of the following is not type of timer<br> 
               <input type="radio" name="q4" id="q4" value="1"> 
-             Any state (either energised or de-enrgised)</font> <br> 
+             RTO<br> 
               <input type="radio" name="q4" id="q4" value="0">
-                De-energised state <br/>
+                CTU <br/>
 		<input type="radio" name="q4" id="q4" value="0">
-                Energised state<br/><br/> 
+                TON <br/><br/> 
               
               <b>Q5.</b> 
-             Which of the following is not a factor in determining the total scan time of a PLC<br> 
+             To stop the timer operation<br> 
               <input type="radio" name="q5" id="q5" value="1"> 
-              Program length<br> 
+              The rung condition is made false<br> 
               <input type="radio" name="q5" id="q5" value="0">
-                Total no. of inputs and outputs <br/>
+               The accumulated value is set to zero <br/>
 		<input type="radio" name="q5" id="q5" value="0">
-                Programming method <br/><br/> 
+                The done bit is set to low<br/><br/> 
               <input type="submit" value="Submit Answers" 
                 class="button" />
             </p>
@@ -183,9 +183,31 @@ edit -->
         element, we can also include images with <img> tag -->
         <div id="experiment-article-section-2-content" 
         class="content">
-          <p><h2>Pre-requisites:- </h2><p>Basics of Digital Electronics and Boolean Algebra:</p><p>Digitization is a process where continuous analog signal is converted into a finite number of discrete states. These states are well seperated  so that noise does not create errors.</p><p>The resulting digital signal has following advantages:</p><ul>storage over arbitrary periods of time<br>flawless retrieval and reproduction of the stored information</br>flawless transmission of the information<br></ul><p>Some information is essentially digital. Hence it is natural to process and manipulate such information using purely digital techniques. Examples are numbers and words.</p><p>The drawback to digitization is that a single analog signal (e.g. a voltage which is a function of time, like a stereo signal) needs many discrete states, or bits, in order to give a satisfactory reproduction.</p> </h2><img src="../images/Binary Logic state.jpg" /><h2>Logic </h2>
-<p>What can a digital circuit do?<br>The simplest task we can think of is a combinational type of logic decision.<br>For example, we can design a digital electronic circuit to make an instant decision based on some information. Here we emphasize “instant” in the decision making process. That means, the process has no time delay.</p><p>X =  It is a sunny day? Yes<br>Y =  Is it Sunday or holiday? Yes<br>Action  Z =  Go for shopping<br>The  rule is  Z = X and Y. The circuit is a simple AND gate.<br><h2>Truth Tables:</h2><img src="../images/logic gates.jpg" /><h2>Boolean Algebra:</h2><p>Logic can also be expressed in algebraic form.<br>e.g.Truth Table for AND gate:<br></p><img src="../images/Truth Table for AND gate.jpg" /></p><p>Boolean Algebra Simplification:-</p><h2>Basic Laws:</h2><img src="../images/Basic Laws.jpg" />
-<h1>Theory</h1><h2>Introduction</h2><p>Each manufacturer of PLC systems has own style of writing the instructions. Different PLCs has different instruction sets but even some common basic instructions are shared by all the PLCs. All manufacturers give different software packages for programming PLCs. Ladder is most commonly used programming language. Prior to PLCs, relay logic was used in industry. Ladders were developed to mimic or imitate relay logic.</p><p>Relay Logic / Instructions<br>  A relay is simple magnetic device which acts as a control switch.</p><p>When the switch is on, current will flow through the coil on iron piece. This iron core acts a electromagnet and due to the magnetic field upper contact gets attracted towards lower one and circuit gets completed, allowing current to flow from load.</p><h2>Ladder Programming</h2><p>Ladder diagram is popular language of programming the PLCs. Ladder diagram shows the sequence of the logic execution which is presented diagrammatically. In ladder diagram, There are two vertical lines generally called as Phase (positive) or neutral. Rungs which show current flow in horizontal direction are the sequence in which the logic executes. The Analogous to relay, ladder has two main symbols which are contacts and output coil. Generally each rung has inputs (contacts) on left hand side and outputs (coil) on the right hand side. These contacts and coils are called as bits of the relays. Each input and output are individual bit in I/O files. An instruction in ladder instructs PLCs how to respond to the bits in I/O files which are stored in the memory. Input contacts are the condition area, the conditions must be fulfilled to change the status of the output coils.<br></p><img src="../images/typical Ladder Diag.jpg" /><p>Most commonly used relay instructions used in PLC programming are as shown in the table below.<br><img src="../images/PLC programming table.jpg" />
+          <p><h2>Introduction:</h2><p>The timer concept and details of on delay timers with its terminology is discussed in the previous experiment. Let us learn about Off-Delay Timer (TOF).</p><h2>OFF-Delay Timer:</h2><p>Consider an example where the contents of a storage tank are to transfer to further process. When the low level is detected by level switch the outlet valve is to be closed. To allow entire contents to drain out, some time delay is needed as the level switch is installed slightly above the tank bottom level.  This can be achieved by using off delay timer.</p><p>Consider an example that, there is a Low level switch to a tank, and we have to close the drain valve of the tank after 5 second delay when low level is reached. In this case this 5 seconds delay can be given using off delay timer as we have to close the drain valve after delay.</p><p>The figure below shows a symbolic representation of the off delay timer.</p>
+<br><img src="media/symbolic_TOFF.jpg" /><br>
+<p>The instruction mainly includes three status bits namely EN, TT, DN. Their significance is as follows:</p>
+ 
+<p>EN-Enable Bit: - The enable bit indicates the TOF instruction is enabled.</p>
+ 
+<p>TT-Timer-Timing Bit: - The timing bit indicates the timing operation is in process.</p>
+ 
+<p>DN- Done Bit: - The done bit changes state whenever the accumulated value reaches the preset value.</p>
+ 
+<p>ACC- Accumulator Bit: - The accumulated value specifies the number of milliseconds that have elapsed since the TOF instruction was enabled.</p>
+ 
+<p>Pre-Preset Bit: - The preset value specifies the value (1msec units) which the accumulated value must reach before the instruction clears the DN bit.</p>
+ 
+<p>The figure shows the timing diagram which illustrates the functioning of all the bits in sequence.</p>
+ 
+ 
+<p>The  timing diagram  illustrates the functioning of all the bits in sequence.
+<br><img src="media/timing diagram_Toff.jpg" /><br>
+<p>The following example, will illustrate the function of each bit of Off Delay Timer after downloading the ladder and taking the PLC in run mode. 
+<br><img src="media/PLC _Toff.jpg" /><br>
+ 
+<p>For low to high transition of start bit, timer will start lamp 3 will glow, as T1.DN,bit is high. When the start bit is toggled again i.e from high to low,  the delay is provided and after 5 seconds delay lamp3  will be off.</p>
+ 
+<p>The Function Block Diagram, Timing diagrams, and ladder diagram solutions are as per the available PLC(Rockwell Automation) in College of Engineering Pune.</p>
           </p>
 
         </div>
@@ -206,41 +228,15 @@ edit -->
 	
           <div id="experiment-article-section-7-content" 
           class="content">
-	    <p><h2>Important steps for developing Ladder using Simulator</h2><p>Please follow the steps so as to understand the procedure for developing ladder logic for various logical gates.</p><ol>1.  Prior to starting of the development of ladder diagram following steps needs to be understood:<br><ul> 
-a.    Understand the problem statement like test the logic for OR gate, AND Gate etc.<br>
-b.    Develop the logic on paper and validate the logic by considering various cases<br>
-c.    Prepare the truth table and test the logic using all valid cases<br>
-d.    Go to simulator icon and click on the “Simulator” button<br>
-e.    The PLC simulator will be opened in new window<br></ul>
+	    <p>Implement the operation using Simulator.</p>
  
-      2.    The procedure for writing the ladder diagram in the work space is as follows<br><ul>
+ <p>The configuration of off delay timer is same as 'on delay timer'.</p>
  
-                                                 a. The screen shot for the first window will appear like this.<br><img src="media/PLC_expt1_1.jpg" /><br>
-
-                  
-               The window will appear like this:<br><img src="media/PLC_expt1_2.jpg" /><br>
-
- b. Place the contacts as per the requirement by clicking the appropriate contact shown in the left pan of the window. In the example demonstrated below one normally contact and one coil is placed as shown the figure.<br><img src="media/PLC_expt1_3.jpg" /><br>
+<p> A typical difference can be observed in the operation (in Run mode) .</p>
  
- 
- C.    Double Click on the contact or coil and you can give tag name like “start”, “stop” etc. Please ensure that the tag numbers are true replica of process connections. Similarly give tag name to coil like “motor”, “Lamp” etc. The final ladder will look like this.<br><img src="media/PLC_expt1_4.jpg" /><br>
- 
- 
-d.    Please note that the tag names are case sensitive and if you are using them in circuit as bit make sure that the correct tag name appears.<br>
-e.    Click the Run button available  at the left side of the window so the ladder will be ready for running and you can test your logic. Both sides of the rung will become green and this is the indication of run mode. Please not that in run mode the contact are not available so if you want to make changes you will have to go in design/program mode.<br>
-f. Double click on the contact and the window for toggling the contact will appear. As you press toggle the state of contact will change. Hence the output contact status will change. <br><img src="media/PLC_expt1_5.jpg" /><br>
- 
-
-g.    Please remember the ladder contacts or the state of the inputs and outputs are always in de-energised state. The de-energised is that state wherein the contacts are in non-active state.<br>
-h.    You can once again toggle the contact and the output state will change. To add any contact you will have to go in programme mode. Click on the rung and add contacts.<br>
-i.    To delete any contact or output click on the contact green line below the contact will appear press “delete” the contact will be deleted.<br>
-j.    To reload the ladder, right click the mouse “Reload ”button will appear and after pressing the button the page will be ready for new ladder development.<br>
-k.    You can add seven elements in series and 5 elements in parallel.<br>
-l.    To add element in parallel click on the contact where you wish to add parallel branch. Select the branch and drag it to location where you wish to terminate the branch. The screen will appear as shown below.<br><img src="media/PLC_expt1_6.jpg" /><br>
-
-m.    Repeat the procedure and check the correctness of the logic.<br>
-n.    Similarly you can check the logic for OR, NOR, and NAND gates. Validate the truth tables and confirm the results.<br></ul>
- 
+<p> When the q bit is energised the output DN bit goes high.  The timer starts only after toggling the initialisation bit again.</p>
+ <br><img src="media/PLC_expt5_1.jpg" /><br>
+<p>To test the EN, DN, and TT bits; double click on the bit and give tag name to the bit. The same tag name is to be used in the new rung to test the status or to energies the output. You can also test the cascading of the timer using these bits.</p>
  	    </p>
 	  </div>
 	
@@ -264,7 +260,7 @@ n.    Similarly you can check the logic for OR, NOR, and NAND gates. Validate th
         <div id="experiment-article-section-4-content" 
         class="content">
           <p>
-	       <a href="../Implementation of Logic gates/index.html">click here for simulator</a>
+	       <a href="../exp5/index.html">click here for simulator </a>
             
           </p>
         </div>
@@ -284,50 +280,50 @@ n.    Similarly you can check the logic for OR, NOR, and NAND gates. Validate th
           </div>	
           <div id="experiment-article-section-6-content" 
           class="content">
-          <p>      
+          <p>    	
               <b>Q1.</b> 
-              The logical AND function is similar to<br> 
+              The main difference between a Ton and a Toff timer is that<br> 
               <input type="radio" name="q1" id="q1" value="1"> 
-              Contacts in series <br> 
+             Toff can maintain the accumulated time on loss of logic continuity<br> 
               <input type="radio" name="q1" id="q1" value="0">
-                Combination of series- parallel contacts<br/>
+                Ton can maintain the accumulated time on loss of logic continuity<br/>
 		<input type="radio" name="q1" id="q1" value="0">
-               Contacts in parallel<br/><br/> 
+               Toff timer begins timing when logic continuity to the rung is lost<br/><br/> 
               
               <b>Q2.</b> 
-              The logical OR function is similar to<br> 
+             DN bit for Toff timer is initially high when the program is switched to run mode after downloading<br> 
               <input type="radio" name="q2" id="q2" value="1"> 
-              Combination of series- parallel contacts<br> 
+              True<br> 
               <input type="radio" name="q2" id="q2" value="0">
-                Contacts in series <br/>
+                False<br/>
 		<input type="radio" name="q2" id="q2" value="0">
-              Contacts in parallel <br/><br/> 
+             Can’t say<br/><br/> 
               
               <b>Q3.</b> 
-              Which of the following logic operators are available in PLC?<br> 
+              The done bit changes state whenever<br> 
               <input type="radio" name="q3" id="q3" value="1"> 
-             AND, OR <br> 
+            the timer timing value reaches the preset value <br> 
               <input type="radio" name="q3" id="q3" value="0">
-              NOT  <br/>
+             the accumulated value reaches the preset value<br/>
 		<input type="radio" name="q3" id="q3" value="0">
-               All of the above<br/><br/> 
+              the accumulated value reaches the timer timing value<br/><br/> 
               <b>Q4.</b> 
-             What is the output of NOR block if any one of the input is high or active or true<br> 
+            Toff is used when action is not expected after specific delay<br> 
               <input type="radio" name="q4" id="q4" value="1"> 
-             1</font> <br> 
+             True <br> 
               <input type="radio" name="q4" id="q4" value="0">
-               0 <br/>
+              False<br/>
 		<input type="radio" name="q4" id="q4" value="0">
-                Can’t say<br/><br/> 
+               Can’t say<br/><br/> 
               
               <b>Q5.</b> 
-            What is the output of NAND block if any one of the two inputs is high or active or true<br> 
+           In off delay timer the status of TT bit is same as<br> 
               <input type="radio" name="q5" id="q5" value="1"> 
-              1<br> 
+              Rung condition IN bit<br> 
               <input type="radio" name="q5" id="q5" value="0">
-                0<br/>
+                DN bit<br/>
 		<input type="radio" name="q5" id="q5" value="0">
-                Can’t say <br/><br/> 
+                EN bit <br/><br/> 
               <input type="submit" value="Submit Answers" 
                 class="button" />
             </p>
@@ -349,7 +345,7 @@ n.    Similarly you can check the logic for OR, NOR, and NAND gates. Validate th
 	  </div>
           <div id="experiment-article-section-7-content" 
           class="content">
-	    <p><ol>1. What are the different types of logic gates?<br>2. Draw the truth table for NAND, NOR and XOR gates.<br>3. How does a relay functions?<br>4. Explain  different relay instructions used in PLC programming.<br>5. What are the standard setps involved in developing a ladder?<br>
+	    <p><ol>1. List the applications of off delay timer.<br>2.  With timing diagram explain the working of off delay timer.<br>3. Write a ladder program to switch off a lamp after 10 sec delay when the input condition to the rung has failed.<br>4. Explain the difference between Ton and Toff timer.<br>5. When retentive timers are preferred? Suggest suitable applications.<br>
 	    </ol></p>
 	  </div>
 	
@@ -381,15 +377,7 @@ n.    Similarly you can check the logic for OR, NOR, and NAND gates. Validate th
 		<li>
                  W.Bolton, “Programmable Logic Controllers”, Elsevier, 4th Ed., 2006.
               </li> 
-		<li>
-                Leach  Malvino ," Digital principles and application  
-              </li> 
-		<li>
-                 Bouwens," Digital Instrumentation "
-              </li> 
-		<li>
-                 David Bell," Solid state pulse circuits"  
-              </li> 	
+		
               <li>
                 <a href="htthttp://plcbasics.net/">http://plcbasics.net/</a>
               </li>
